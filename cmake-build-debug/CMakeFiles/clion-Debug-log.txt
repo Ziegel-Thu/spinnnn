@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS -B /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug
+Build type: Debug
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug
