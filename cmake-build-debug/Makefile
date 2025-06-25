@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS
+CMAKE_SOURCE_DIR = /Users/apple/Desktop/Damiao_remote/Spinnnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug/CMakeFiles /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -165,6 +165,30 @@ Core/Src/dma.s: Core/Src/dma.c.s
 Core/Src/dma.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/dma.c.s
 .PHONY : Core/Src/dma.c.s
+
+Core/Src/fdcan.obj: Core/Src/fdcan.c.obj
+.PHONY : Core/Src/fdcan.obj
+
+# target to build an object file
+Core/Src/fdcan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.obj
+.PHONY : Core/Src/fdcan.c.obj
+
+Core/Src/fdcan.i: Core/Src/fdcan.c.i
+.PHONY : Core/Src/fdcan.i
+
+# target to preprocess a source file
+Core/Src/fdcan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.i
+.PHONY : Core/Src/fdcan.c.i
+
+Core/Src/fdcan.s: Core/Src/fdcan.c.s
+.PHONY : Core/Src/fdcan.s
+
+# target to generate assembly for a file
+Core/Src/fdcan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.s
+.PHONY : Core/Src/fdcan.c.s
 
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
@@ -310,6 +334,30 @@ Core/Src/sysmem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.s
 .PHONY : Core/Src/sysmem.c.s
 
+Core/Src/tim.obj: Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.obj
+
+# target to build an object file
+Core/Src/tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.c.obj
+
+Core/Src/tim.i: Core/Src/tim.c.i
+.PHONY : Core/Src/tim.i
+
+# target to preprocess a source file
+Core/Src/tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.i
+.PHONY : Core/Src/tim.c.i
+
+Core/Src/tim.s: Core/Src/tim.c.s
+.PHONY : Core/Src/tim.s
+
+# target to generate assembly for a file
+Core/Src/tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.s
+.PHONY : Core/Src/tim.c.s
+
 Core/Src/usart.obj: Core/Src/usart.c.obj
 .PHONY : Core/Src/usart.obj
 
@@ -333,6 +381,102 @@ Core/Src/usart.s: Core/Src/usart.c.s
 Core/Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.s
 .PHONY : Core/Src/usart.c.s
+
+User/bsp_fdcan.obj: User/bsp_fdcan.c.obj
+.PHONY : User/bsp_fdcan.obj
+
+# target to build an object file
+User/bsp_fdcan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj
+.PHONY : User/bsp_fdcan.c.obj
+
+User/bsp_fdcan.i: User/bsp_fdcan.c.i
+.PHONY : User/bsp_fdcan.i
+
+# target to preprocess a source file
+User/bsp_fdcan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.i
+.PHONY : User/bsp_fdcan.c.i
+
+User/bsp_fdcan.s: User/bsp_fdcan.c.s
+.PHONY : User/bsp_fdcan.s
+
+# target to generate assembly for a file
+User/bsp_fdcan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.s
+.PHONY : User/bsp_fdcan.c.s
+
+User/delay.obj: User/delay.c.obj
+.PHONY : User/delay.obj
+
+# target to build an object file
+User/delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj
+.PHONY : User/delay.c.obj
+
+User/delay.i: User/delay.c.i
+.PHONY : User/delay.i
+
+# target to preprocess a source file
+User/delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.i
+.PHONY : User/delay.c.i
+
+User/delay.s: User/delay.c.s
+.PHONY : User/delay.s
+
+# target to generate assembly for a file
+User/delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.s
+.PHONY : User/delay.c.s
+
+User/dm_motor_ctrl.obj: User/dm_motor_ctrl.c.obj
+.PHONY : User/dm_motor_ctrl.obj
+
+# target to build an object file
+User/dm_motor_ctrl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj
+.PHONY : User/dm_motor_ctrl.c.obj
+
+User/dm_motor_ctrl.i: User/dm_motor_ctrl.c.i
+.PHONY : User/dm_motor_ctrl.i
+
+# target to preprocess a source file
+User/dm_motor_ctrl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.i
+.PHONY : User/dm_motor_ctrl.c.i
+
+User/dm_motor_ctrl.s: User/dm_motor_ctrl.c.s
+.PHONY : User/dm_motor_ctrl.s
+
+# target to generate assembly for a file
+User/dm_motor_ctrl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.s
+.PHONY : User/dm_motor_ctrl.c.s
+
+User/dm_motor_drv.obj: User/dm_motor_drv.c.obj
+.PHONY : User/dm_motor_drv.obj
+
+# target to build an object file
+User/dm_motor_drv.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj
+.PHONY : User/dm_motor_drv.c.obj
+
+User/dm_motor_drv.i: User/dm_motor_drv.c.i
+.PHONY : User/dm_motor_drv.i
+
+# target to preprocess a source file
+User/dm_motor_drv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.i
+.PHONY : User/dm_motor_drv.c.i
+
+User/dm_motor_drv.s: User/dm_motor_drv.c.s
+.PHONY : User/dm_motor_drv.s
+
+# target to generate assembly for a file
+User/dm_motor_drv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.s
+.PHONY : User/dm_motor_drv.c.s
 
 User/uart_bsp.obj: User/uart_bsp.c.obj
 .PHONY : User/uart_bsp.obj
@@ -379,6 +523,9 @@ help:
 	@echo "... Core/Src/dma.obj"
 	@echo "... Core/Src/dma.i"
 	@echo "... Core/Src/dma.s"
+	@echo "... Core/Src/fdcan.obj"
+	@echo "... Core/Src/fdcan.i"
+	@echo "... Core/Src/fdcan.s"
 	@echo "... Core/Src/gpio.obj"
 	@echo "... Core/Src/gpio.i"
 	@echo "... Core/Src/gpio.s"
@@ -397,9 +544,24 @@ help:
 	@echo "... Core/Src/sysmem.obj"
 	@echo "... Core/Src/sysmem.i"
 	@echo "... Core/Src/sysmem.s"
+	@echo "... Core/Src/tim.obj"
+	@echo "... Core/Src/tim.i"
+	@echo "... Core/Src/tim.s"
 	@echo "... Core/Src/usart.obj"
 	@echo "... Core/Src/usart.i"
 	@echo "... Core/Src/usart.s"
+	@echo "... User/bsp_fdcan.obj"
+	@echo "... User/bsp_fdcan.i"
+	@echo "... User/bsp_fdcan.s"
+	@echo "... User/delay.obj"
+	@echo "... User/delay.i"
+	@echo "... User/delay.s"
+	@echo "... User/dm_motor_ctrl.obj"
+	@echo "... User/dm_motor_ctrl.i"
+	@echo "... User/dm_motor_ctrl.s"
+	@echo "... User/dm_motor_drv.obj"
+	@echo "... User/dm_motor_drv.i"
+	@echo "... User/dm_motor_drv.s"
 	@echo "... User/uart_bsp.obj"
 	@echo "... User/uart_bsp.i"
 	@echo "... User/uart_bsp.s"

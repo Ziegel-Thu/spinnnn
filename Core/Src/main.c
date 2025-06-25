@@ -19,14 +19,18 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "dma.h"
+#include "fdcan.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-#include <stdio.h>
-#include <stdarg.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "uart_bsp.h"
+#include "bsp_fdcan.h"
+#include "dm_motor_ctrl.h"
+#include <stdarg.h>
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -70,7 +74,17 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    /* USER CODE BEGIN Callback 0 */
+    // if (htim->Instance == TIM3) {
 
+    //     read_all_motor_data(&motor[Motor1]);
+
+    //     if(motor[Motor1].tmp.read_flag == 0)
+    //         dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
+    // }
+}
 /* USER CODE END 0 */
 
 /**
@@ -104,15 +118,49 @@ int main(void)
   MX_DMA_Init();
   MX_USART1_UART_Init();
   MX_UART5_Init();
+  MX_FDCAN1_Init();
+  MX_FDCAN2_Init();
+  MX_FDCAN3_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+    power(1);
+    //HAL_Delay(1000);
+  bsp_fdcan_set_baud(&hfdcan1, CAN_CLASS, CAN_BR_1M);
+	bsp_can_init();
+	dm_motor_init();
+	motor[Motor1].ctrl.mode = mit_mode;
+//	HAL_Delay(100);
+
+	write_motor_data(motor[Motor1].id, 10, mit_mode, 0, 0, 0);
+//	HAL_Delay(100);
+    read_motor_data(motor[Motor1].id, RID_CAN_BR);
+	dm_motor_disable(&hfdcan1, &motor[Motor1]);
+//	HAL_Delay(100);
+	save_motor_data(motor[Motor1].id, 10);
+//	HAL_Delay(100);
+	dm_motor_enable(&hfdcan1, &motor[Motor1]);
+//	HAL_Delay(1000);
+    uint8_t data2[8] = {127,255,127,240,0,0,8,9};
+    fdcanx_send_data(&hfdcan1, motor[Motor1].id, data2, 8);
+	HAL_TIM_Base_Start_IT(&htim3);
   for (int i =0; i< BUFF_SIZE*2; i++){
       rx_buff[i]=0;
   }
   channels = get_remoter();
   channels->data_updated = 0;  // 初始化时清零标志位
-  HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
+//
+//  motor[Motor1].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
+//  motor[Motor1].ctrl.vel_set = 0.0f;     // 设置速度
+//  motor[Motor1].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
+//  motor[Motor1].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
+//  motor[Motor1].ctrl.tor_set = 0.05f;     // 设置转矩为0
+
+
+//    dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
+    HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
 //	HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
 //	HAL_UARTEx_ReceiveToIdle_DMA(&huart8, rx_buff, BUFF_SIZE*2);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -120,31 +168,38 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
     /* USER CODE BEGIN 3 */
     // 检查数据更新标志位
-    if (channels->data_updated) {
-        usart_printf("ch[0]:%d\r\n", channels->rc.ch[0]);
-        usart_printf("ch[1]:%d\r\n", channels->rc.ch[1]);
-        usart_printf("ch[2]:%d\r\n", channels->rc.ch[2]);
-        usart_printf("ch[3]:%d\r\n", channels->rc.ch[3]);
-        usart_printf("ch[4]:%d\r\n", channels->rc.ch[4]);
-        usart_printf("ch[5]:%d\r\n", channels->rc.ch[5]);
-        usart_printf("ch[6]:%d\r\n", channels->rc.ch[6]);
-        usart_printf("ch[7]:%d\r\n", channels->rc.ch[7]);
-        usart_printf("ch[8]:%d\r\n", channels->rc.ch[8]);
-        usart_printf("ch[9]:%d\r\n", channels->rc.ch[9]);
-        usart_printf("ch[10]:%d\r\n", channels->rc.ch[10]);
-        usart_printf("ch[11]:%d\r\n", channels->rc.ch[11]);
-        usart_printf("ch[12]:%d\r\n", channels->rc.ch[12]);
-        usart_printf("ch[13]:%d\r\n", channels->rc.ch[13]);
-        usart_printf("ch[14]:%d\r\n", channels->rc.ch[14]);
-        usart_printf("ch[15]:%d\r\n", channels->rc.ch[15]);
-        
-        usart_printf("online:%d\r\n", channels->online);
-        usart_printf("-------------------\r\n");
-        channels->data_updated = 0;  // 清除标志位
-        HAL_Delay(1000);
-    }
+     if (channels->data_updated) {
+         usart_printf("ch[0]:%d\r\n", channels->rc.ch[0]);
+         usart_printf("ch[1]:%d\r\n", channels->rc.ch[1]);
+         usart_printf("ch[2]:%d\r\n", channels->rc.ch[2]);
+         usart_printf("ch[3]:%d\r\n", channels->rc.ch[3]);
+         usart_printf("ch[4]:%d\r\n", channels->rc.ch[4]);
+         usart_printf("ch[5]:%d\r\n", channels->rc.ch[5]);
+ //        usart_printf("ch[6]:%d\r\n", channels->rc.ch[6]);
+ //        usart_printf("ch[7]:%d\r\n", channels->rc.ch[7]);
+ //        usart_printf("ch[8]:%d\r\n", channels->rc.ch[8]);
+ //        usart_printf("ch[9]:%d\r\n", channels->rc.ch[9]);
+ //        usart_printf("ch[10]:%d\r\n", channels->rc.ch[10]);
+ //        usart_printf("ch[11]:%d\r\n", channels->rc.ch[11]);
+ //        usart_printf("ch[12]:%d\r\n", channels->rc.ch[12]);
+ //        usart_printf("ch[13]:%d\r\n", channels->rc.ch[13]);
+ //        usart_printf("ch[14]:%d\r\n", channels->rc.ch[14]);
+ //        usart_printf("ch[15]:%d\r\n", channels->rc.ch[15]);
+         usart_printf("online:%d\r\n", channels->online);
+         usart_printf("-------------------\r\n");
+         channels->data_updated = 0;  // 清除标志位
+//         motor[Motor1].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
+//         motor[Motor1].ctrl.vel_set = 0.0f;     // 设置速度
+//         motor[Motor1].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
+//         motor[Motor1].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
+//         motor[Motor1].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
+//         dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
+         HAL_Delay(100);
+
+     }
 
   }
   /* USER CODE END 3 */
@@ -172,15 +227,14 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
-  RCC_OscInitStruct.HSIState = RCC_HSI_DIV1;
-  RCC_OscInitStruct.HSICalibrationValue = 64;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
-  RCC_OscInitStruct.PLL.PLLM = 4;
-  RCC_OscInitStruct.PLL.PLLN = 30;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+  RCC_OscInitStruct.PLL.PLLM = 2;
+  RCC_OscInitStruct.PLL.PLLN = 40;
   RCC_OscInitStruct.PLL.PLLP = 1;
-  RCC_OscInitStruct.PLL.PLLQ = 2;
+  RCC_OscInitStruct.PLL.PLLQ = 6;
   RCC_OscInitStruct.PLL.PLLR = 2;
   RCC_OscInitStruct.PLL.PLLRGE = RCC_PLL1VCIRANGE_3;
   RCC_OscInitStruct.PLL.PLLVCOSEL = RCC_PLL1VCOWIDE;
@@ -199,8 +253,8 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.SYSCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_HCLK_DIV2;
   RCC_ClkInitStruct.APB3CLKDivider = RCC_APB3_DIV2;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_APB1_DIV2;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_APB2_DIV2;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_APB1_DIV4;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_APB2_DIV4;
   RCC_ClkInitStruct.APB4CLKDivider = RCC_APB4_DIV2;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_3) != HAL_OK)

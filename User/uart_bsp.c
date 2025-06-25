@@ -65,20 +65,7 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef * huart, uint16_t Size)
 	}
     if(huart->Instance == USART1)
     {
-
-        if (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_IDLE))
-        {
-            __HAL_UART_CLEAR_IDLEFLAG(&huart1);  // 清除 IDLE 标志，必须！
-
-            HAL_UART_DMAStop(&huart1);  // 停止 DMA，准备读取数据
-
-            uint16_t len = Size - __HAL_DMA_GET_COUNTER(huart1.hdmarx);  // 实际接收长度
-
-
-            // ✅ 此处你处理接收到的数据 rx_buf[0..len-1]
-            Process_Data(rx_buff, len,huart);
-
-        }
+        Process_Data(rx_buff, Size,huart);
     }
 }
 
@@ -86,9 +73,9 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef * huart, uint16_t Size)
 
 void HAL_UART_ErrorCallback(UART_HandleTypeDef * huart)
 {
-	if(huart->Instance == UART5)
+	if(huart->Instance == USART1)
 	{
-		HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2); // ���շ������������
+		HAL_UARTEx_ReceiveToIdle_DMA(huart, rx_buff, BUFF_SIZE*2); // ���շ������������
 		memset(rx_buff, 0, BUFF_SIZE);							   // ������ջ���		
 	}
 }

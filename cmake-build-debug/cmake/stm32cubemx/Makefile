@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS
+CMAKE_SOURCE_DIR = /Users/apple/Desktop/Damiao_remote/Spinnnn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug/CMakeFiles /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug/cmake/stm32cubemx//CMakeFiles/progress.marks
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug/CMakeFiles 0
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/cmake/stm32cubemx//CMakeFiles/progress.marks
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/clean
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 
 # fast build rule for target.
 STM32_Drivers/fast:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
 __/__/Core/Src/system_stm32h7xx.obj: __/__/Core/Src/system_stm32h7xx.c.obj
@@ -135,7 +135,7 @@ __/__/Core/Src/system_stm32h7xx.obj: __/__/Core/Src/system_stm32h7xx.c.obj
 
 # target to build an object file
 __/__/Core/Src/system_stm32h7xx.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.obj
 .PHONY : __/__/Core/Src/system_stm32h7xx.c.obj
 
 __/__/Core/Src/system_stm32h7xx.i: __/__/Core/Src/system_stm32h7xx.c.i
@@ -143,7 +143,7 @@ __/__/Core/Src/system_stm32h7xx.i: __/__/Core/Src/system_stm32h7xx.c.i
 
 # target to preprocess a source file
 __/__/Core/Src/system_stm32h7xx.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.i
 .PHONY : __/__/Core/Src/system_stm32h7xx.c.i
 
 __/__/Core/Src/system_stm32h7xx.s: __/__/Core/Src/system_stm32h7xx.c.s
@@ -151,7 +151,7 @@ __/__/Core/Src/system_stm32h7xx.s: __/__/Core/Src/system_stm32h7xx.c.s
 
 # target to generate assembly for a file
 __/__/Core/Src/system_stm32h7xx.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c.s
 .PHONY : __/__/Core/Src/system_stm32h7xx.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
@@ -159,7 +159,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.obj: __/__/Drivers/STM32H7x
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
@@ -167,7 +167,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.i: __/__/Drivers/STM32H7xx_
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
@@ -175,7 +175,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.s: __/__/Drivers/STM32H7xx_
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
@@ -183,7 +183,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
@@ -191,7 +191,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
@@ -199,7 +199,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
@@ -207,7 +207,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i
@@ -215,7 +215,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.i: __/__/Drivers/STM32H
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s
@@ -223,7 +223,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.s: __/__/Drivers/STM32H
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
@@ -231,7 +231,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i
@@ -239,7 +239,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s
@@ -247,7 +247,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
@@ -255,7 +255,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i
@@ -263,7 +263,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s
@@ -271,15 +271,39 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s
+
+__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
+.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.obj
+
+# target to build an object file
+__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
+.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
+
+__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.i
+.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.i
+.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.i
+
+__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s
+.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s
+.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.obj
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i
@@ -287,7 +311,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.i: __/__/Drivers/STM3
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s
@@ -295,7 +319,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.s: __/__/Drivers/STM3
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
@@ -303,7 +327,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.obj: __/__/Drivers
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i
@@ -311,7 +335,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.i: __/__/Drivers/S
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s
@@ -319,7 +343,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.s: __/__/Drivers/S
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
@@ -327,7 +351,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
@@ -335,7 +359,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
@@ -343,7 +367,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
@@ -351,7 +375,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i
@@ -359,7 +383,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s
@@ -367,7 +391,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
@@ -375,7 +399,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i
@@ -383,7 +407,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.i: __/__/Drivers/STM32H
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s
@@ -391,7 +415,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.s: __/__/Drivers/STM32H
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
@@ -399,7 +423,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i
@@ -407,7 +431,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
@@ -415,7 +439,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
@@ -423,7 +447,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i
@@ -431,7 +455,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
@@ -439,7 +463,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
@@ -447,7 +471,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i
@@ -455,7 +479,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.i: __/__/Drivers/STM32H
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s
@@ -463,7 +487,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.s: __/__/Drivers/STM32H
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
@@ -471,7 +495,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
@@ -479,7 +503,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
@@ -487,7 +511,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
@@ -495,7 +519,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
@@ -503,7 +527,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.i: __/__/Drivers/STM32H
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
@@ -511,7 +535,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.s: __/__/Drivers/STM32H
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
@@ -519,7 +543,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
@@ -527,7 +551,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
@@ -535,7 +559,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
@@ -543,7 +567,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
@@ -551,7 +575,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.i: __/__/Drivers/STM32H
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
@@ -559,7 +583,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.s: __/__/Drivers/STM32H
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
@@ -567,7 +591,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
@@ -575,7 +599,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
@@ -583,7 +607,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
@@ -591,7 +615,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
@@ -599,7 +623,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
@@ -607,7 +631,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
@@ -615,7 +639,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.obj: __/__/Drivers/
 
 # target to build an object file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
@@ -623,7 +647,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.i: __/__/Drivers/ST
 
 # target to preprocess a source file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
 
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
@@ -631,7 +655,7 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s: __/__/Drivers/ST
 
 # target to generate assembly for a file
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 
 # Help Target
@@ -661,6 +685,9 @@ help:
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.obj"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.i"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.s"
+	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.obj"
+	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.i"
+	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.s"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.obj"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.i"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.s"
@@ -717,6 +744,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

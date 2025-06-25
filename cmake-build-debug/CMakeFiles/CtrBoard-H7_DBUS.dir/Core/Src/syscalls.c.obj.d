@@ -1,5 +1,5 @@
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj: \
- /Users/apple/Desktop/Damiao_remote/CtrBoard-H7_DBUS/Core/Src/syscalls.c \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/syscalls.c \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stat.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \

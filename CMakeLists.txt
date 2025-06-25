@@ -49,6 +49,10 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     ${CMAKE_CURRENT_SOURCE_DIR}/User/uart_bsp.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/User/bsp_fdcan.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/User/delay.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/User/dm_motor_ctrl.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/User/dm_motor_drv.c
 )
 
 # Add include paths

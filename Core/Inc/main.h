@@ -46,7 +46,8 @@ extern int flag;
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
-
+#define			power(x)			HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14, x)
+void usart_printf(const char *fmt,...);
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/
