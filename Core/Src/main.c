@@ -115,9 +115,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_DMA_Init();
-  MX_USART1_UART_Init();
-  MX_UART5_Init();
+    MX_DMA_Init();
+    MX_USART1_UART_Init();
+    MX_UART5_Init();
   MX_FDCAN1_Init();
   MX_FDCAN2_Init();
   MX_FDCAN3_Init();
@@ -126,23 +126,33 @@ int main(void)
     power(1);
     //HAL_Delay(1000);
   bsp_fdcan_set_baud(&hfdcan1, CAN_CLASS, CAN_BR_1M);
+  
 	bsp_can_init();
 	dm_motor_init();
-	motor[Motor1].ctrl.mode = mit_mode;
-//	HAL_Delay(100);
 
+	motor[Motor1].ctrl.mode = mit_mode;
+    motor[Motor2].ctrl.mode = mit_mode;
+	//HAL_Delay(100);
 	write_motor_data(motor[Motor1].id, 10, mit_mode, 0, 0, 0);
-//	HAL_Delay(100);
+    write_motor_data(motor[Motor2].id, 10, mit_mode, 0, 0, 0);
+    //HAL_Delay(100);
     read_motor_data(motor[Motor1].id, RID_CAN_BR);
 	dm_motor_disable(&hfdcan1, &motor[Motor1]);
-//	HAL_Delay(100);
+    read_motor_data(motor[Motor2].id, RID_CAN_BR);
+    dm_motor_disable(&hfdcan1, &motor[Motor2]);
+	//HAL_Delay(100);
 	save_motor_data(motor[Motor1].id, 10);
-//	HAL_Delay(100);
+    save_motor_data(motor[Motor2].id, 10);
+	//HAL_Delay(100);
 	dm_motor_enable(&hfdcan1, &motor[Motor1]);
-//	HAL_Delay(1000);
+    dm_motor_enable(&hfdcan1, &motor[Motor2]);
+	//HAL_Delay(1000);
     uint8_t data2[8] = {127,255,127,240,0,0,8,9};
     fdcanx_send_data(&hfdcan1, motor[Motor1].id, data2, 8);
-	HAL_TIM_Base_Start_IT(&htim3);
+    fdcanx_send_data(&hfdcan1, motor[Motor2].id, data2, 8);
+
+    HAL_TIM_Base_Start_IT(&htim3);
+
   for (int i =0; i< BUFF_SIZE*2; i++){
       rx_buff[i]=0;
   }
@@ -191,12 +201,32 @@ int main(void)
          usart_printf("online:%d\r\n", channels->online);
          usart_printf("-------------------\r\n");
          channels->data_updated = 0;  // 清除标志位
-//         motor[Motor1].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
-//         motor[Motor1].ctrl.vel_set = 0.0f;     // 设置速度
-//         motor[Motor1].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
-//         motor[Motor1].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
-//         motor[Motor1].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
-//         dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
+         motor[Motor1].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
+         motor[Motor1].ctrl.vel_set = 0.0f;     // 设置速度
+         motor[Motor1].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
+         motor[Motor1].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
+         motor[Motor1].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
+         motor[Motor2].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
+         motor[Motor2].ctrl.vel_set = 0.0f;     // 设置速度
+         motor[Motor2].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
+         motor[Motor2].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
+         motor[Motor2].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
+//         motor[Motor3].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
+//         motor[Motor3].ctrl.vel_set = 0.0f;     // 设置速度
+//         motor[Motor3].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
+//         motor[Motor3].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
+//         motor[Motor3].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
+//         motor[Motor4].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
+//         motor[Motor4].ctrl.vel_set = 0.0f;     // 设置速度
+//         motor[Motor4].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
+//         motor[Motor4].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
+//         motor[Motor4].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
+         dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
+         dm_motor_ctrl_send(&hfdcan1, &motor[Motor2]);
+//         dm_motor_ctrl_send(&hfdcan1, &motor[Motor3]);
+//         dm_motor_ctrl_send(&hfdcan1, &motor[Motor4]);
+
+
          HAL_Delay(100);
 
      }
