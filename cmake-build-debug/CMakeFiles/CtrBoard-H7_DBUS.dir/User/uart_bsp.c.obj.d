@@ -54,6 +54,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/User/uart_bsp.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \

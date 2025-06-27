@@ -34,7 +34,8 @@
 					"source" : "cmake/stm32cubemx",
 					"targetIndexes" : 
 					[
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -51,7 +52,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -60,14 +62,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CtrBoard-H7_DBUS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CtrBoard-H7_DBUS-Debug-2678eeb6faa14336b831.json",
+					"jsonFile" : "target-CtrBoard-H7_DBUS-Debug-c2820f4e336b4bd9f46c.json",
 					"name" : "CtrBoard-H7_DBUS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
+					"id" : "FreeRTOS::@768a070a0fe75716b479",
+					"jsonFile" : "target-FreeRTOS-Debug-52f987269f457523f425.json",
+					"name" : "FreeRTOS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Debug-b09877591d1ec2fd603b.json",
+					"jsonFile" : "target-STM32_Drivers-Debug-ad761104a3cac4faa552.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				}

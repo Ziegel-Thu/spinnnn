@@ -15,69 +15,65 @@ motor_t motor[num];
 *               ����ID������ģʽ������ģʽ����Ϣ��
 ************************************************************************
 **/
-void dm_motor_init(void)
+void dm_motor_6215_init(void)
 {
-	// ��ʼ��Motor1��Motor2�ĵ���ṹ
+    HAL_GPIO_WritePin(GPIOC,GPIO_PIN_14,1);
+    HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,1);
+	// HAL_Delay(1000);
+    //bsp_fdcan_set_baud(&hfdcan1, CAN_CLASS, CAN_BR_1M);
+    // ��ʼ��Motor1��Motor2�ĵ���ṹ
 	memset(&motor[Motor1], 0, sizeof(motor[Motor1]));
 	memset(&motor[Motor2], 0, sizeof(motor[Motor2]));
 	memset(&motor[Motor3], 0, sizeof(motor[Motor3]));
 	memset(&motor[Motor4], 0, sizeof(motor[Motor4]));
-	memset(&motor[Motor5], 0, sizeof(motor[Motor5]));
-	memset(&motor[Motor6], 0, sizeof(motor[Motor6]));
+
 
 	// ����Motor1�ĵ����Ϣ
-	motor[Motor1].id = 0x54;
-	motor[Motor1].mst_id = 0x64;	// ʵ��û�����ϣ�ֻ����ʶ����
-	motor[Motor1].tmp.read_flag = 1;
-	motor[Motor1].ctrl.mode 	= psi_mode;
-	motor[Motor1].ctrl.vel_set 	= 1.0f;
-	motor[Motor1].ctrl.pos_set 	= 6.28f;
-	motor[Motor1].ctrl.tor_set 	= 0.0f;
-	motor[Motor1].ctrl.cur_set 	= 0.02f;
-	motor[Motor1].ctrl.kp_set 	= 0.0f;
-	motor[Motor1].ctrl.kd_set 	= 0.0f;
-	motor[Motor1].tmp.PMAX		= 12.5f;
-	motor[Motor1].tmp.VMAX		= 30.0f;
-	motor[Motor1].tmp.TMAX		= 10.0f;
+	motor[Motor1].id = 0x51;
+	motor[Motor1].mst_id = 0x61;	// ʵ��û�����ϣ�ֻ����ʶ����
 	motor[Motor2].id = 0x52;
 	motor[Motor2].mst_id = 0x62;	// ʵ��û�����ϣ�ֻ����ʶ����
-	motor[Motor2].tmp.read_flag = 1;
-	motor[Motor2].ctrl.mode 	= psi_mode;
-	motor[Motor2].ctrl.vel_set 	= 1.0f;
-	motor[Motor2].ctrl.pos_set 	= 6.28f;
-	motor[Motor2].ctrl.tor_set 	= 0.0f;
-	motor[Motor2].ctrl.cur_set 	= 0.02f;
-	motor[Motor2].ctrl.kp_set 	= 0.0f;
-	motor[Motor2].ctrl.kd_set 	= 0.0f;
-	motor[Motor2].tmp.PMAX		= 12.5f;
-	motor[Motor2].tmp.VMAX		= 30.0f;
-	motor[Motor2].tmp.TMAX		= 10.0f;
-	motor[Motor3].id = 0x52;
-	motor[Motor3].mst_id = 0x62;	// ʵ��û�����ϣ�ֻ����ʶ����
-	motor[Motor3].tmp.read_flag = 1;
-	motor[Motor3].ctrl.mode 	= psi_mode;
-	motor[Motor3].ctrl.vel_set 	= 1.0f;
-	motor[Motor3].ctrl.pos_set 	= 6.28f;
-	motor[Motor3].ctrl.tor_set 	= 0.0f;
-	motor[Motor3].ctrl.cur_set 	= 0.02f;
-	motor[Motor3].ctrl.kp_set 	= 0.0f;
-	motor[Motor3].ctrl.kd_set 	= 0.0f;
-	motor[Motor3].tmp.PMAX		= 12.5f;
-	motor[Motor3].tmp.VMAX		= 30.0f;
-	motor[Motor3].tmp.TMAX		= 10.0f;
-    motor[Motor4].id = 0x53;
-    motor[Motor4].mst_id = 0x63;	// ʵ��û�����ϣ�ֻ����ʶ����
-    motor[Motor4].tmp.read_flag = 1;
-    motor[Motor4].ctrl.mode 	= psi_mode;
-    motor[Motor4].ctrl.vel_set 	= 1.0f;
-    motor[Motor4].ctrl.pos_set 	= 6.28f;
-    motor[Motor4].ctrl.tor_set 	= 0.0f;
-    motor[Motor4].ctrl.cur_set 	= 0.02f;
-    motor[Motor4].ctrl.kp_set 	= 0.0f;
-    motor[Motor4].ctrl.kd_set 	= 0.0f;
-    motor[Motor4].tmp.PMAX		= 12.5f;
-    motor[Motor4].tmp.VMAX		= 30.0f;
-    motor[Motor4].tmp.TMAX		= 10.0f;
+	motor[Motor3].id = 0x53;
+	motor[Motor3].mst_id = 0x63;	// ʵ��û�����ϣ�ֻ����ʶ����
+    motor[Motor4].id = 0x54;
+    motor[Motor4].mst_id = 0x64;	// ʵ��û�����ϣ�ֻ����ʶ����
+	for(int i=0;i<4;i++){
+		motor[i].ctrl.mode = mit_mode;
+		motor[i].ctrl.vel_set = 0.0f;
+		motor[i].ctrl.pos_set = 0.0f;
+		motor[i].ctrl.tor_set = 0.0f;
+		motor[i].ctrl.cur_set = 0.02f;
+		motor[i].ctrl.kp_set = 0.0f;
+		motor[i].ctrl.kd_set = 0.0f;
+		motor[i].tmp.read_flag = 1;
+		motor[i].tmp.PMAX		= 12.5f;
+		motor[i].tmp.VMAX		= 30.0f;
+		motor[i].tmp.TMAX		= 10.0f;
+	}
+//	// HAL_Delay(100);
+	 for(int i=0;i<4;i++){
+	 	write_motor_data(motor[i].id, 10, mit_mode, 0, 0, 0);
+	 }
+////	HAL_Delay(100);
+	// for(int i=0;i<4;i++){
+	// 	read_motor_data(motor[i].id, RID_CAN_BR);
+	// }
+////	HAL_Delay(100);
+	for(int i=0;i<4;i++){
+		dm_motor_disable(&hfdcan1, &motor[i]);
+	}
+////	HAL_Delay(100);
+	for(int i=0;i<4;i++){
+		save_motor_data(motor[i].id, 10);
+	}
+////	HAL_Delay(100);
+	for(int i=0;i<4;i++){
+		dm_motor_enable(&hfdcan1, &motor[i]);
+	}
+//
+////	HAL_Delay(1000);
+    uint8_t data2[8] = {127,255,127,240,0,0,8,9};
+    fdcanx_send_data(&hfdcan1, motor[Motor1].id, data2, 8);
 }
 /**
 ************************************************************************

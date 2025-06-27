@@ -130,6 +130,20 @@ STM32_Drivers/fast:
 	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
+# Convenience name for target.
+cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/rule:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/rule
+.PHONY : cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/rule
+
+# Convenience name for target.
+FreeRTOS: cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/rule
+.PHONY : FreeRTOS
+
+# fast build rule for target.
+FreeRTOS/fast:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build
+.PHONY : FreeRTOS/fast
+
 __/__/Core/Src/system_stm32h7xx.obj: __/__/Core/Src/system_stm32h7xx.c.obj
 .PHONY : __/__/Core/Src/system_stm32h7xx.obj
 
@@ -658,6 +672,246 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s:
 	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 
+__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/list.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/list.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/list.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/list.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/list.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/list.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.obj
+
+# target to build an object file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.i: __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.i
+
+# target to preprocess a source file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+
+__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.s: __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.s
+
+# target to generate assembly for a file
+__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
+	cd /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+.PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -666,6 +920,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... FreeRTOS"
 	@echo "... STM32_Drivers"
 	@echo "... __/__/Core/Src/system_stm32h7xx.obj"
 	@echo "... __/__/Core/Src/system_stm32h7xx.i"
@@ -733,6 +988,36 @@ help:
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.obj"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.i"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/list.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/list.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/list.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/queue.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.s"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.obj"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.i"
+	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/timers.s"
 .PHONY : help
 
 

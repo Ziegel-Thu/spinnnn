@@ -142,6 +142,19 @@ STM32_Drivers/fast:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
+#=============================================================================
+# Target rules for targets named FreeRTOS
+
+# Build rule for target.
+FreeRTOS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FreeRTOS
+.PHONY : FreeRTOS
+
+# fast build rule for target.
+FreeRTOS/fast:
+	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build
+.PHONY : FreeRTOS/fast
+
 Core/Src/dma.obj: Core/Src/dma.c.obj
 .PHONY : Core/Src/dma.obj
 
@@ -189,6 +202,30 @@ Core/Src/fdcan.s: Core/Src/fdcan.c.s
 Core/Src/fdcan.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.s
 .PHONY : Core/Src/fdcan.c.s
+
+Core/Src/freertos.obj: Core/Src/freertos.c.obj
+.PHONY : Core/Src/freertos.obj
+
+# target to build an object file
+Core/Src/freertos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj
+.PHONY : Core/Src/freertos.c.obj
+
+Core/Src/freertos.i: Core/Src/freertos.c.i
+.PHONY : Core/Src/freertos.i
+
+# target to preprocess a source file
+Core/Src/freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.i
+.PHONY : Core/Src/freertos.c.i
+
+Core/Src/freertos.s: Core/Src/freertos.c.s
+.PHONY : Core/Src/freertos.s
+
+# target to generate assembly for a file
+Core/Src/freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.s
+.PHONY : Core/Src/freertos.c.s
 
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
@@ -262,6 +299,30 @@ Core/Src/stm32h7xx_hal_msp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.s
 .PHONY : Core/Src/stm32h7xx_hal_msp.c.s
 
+Core/Src/stm32h7xx_hal_timebase_tim.obj: Core/Src/stm32h7xx_hal_timebase_tim.c.obj
+.PHONY : Core/Src/stm32h7xx_hal_timebase_tim.obj
+
+# target to build an object file
+Core/Src/stm32h7xx_hal_timebase_tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj
+.PHONY : Core/Src/stm32h7xx_hal_timebase_tim.c.obj
+
+Core/Src/stm32h7xx_hal_timebase_tim.i: Core/Src/stm32h7xx_hal_timebase_tim.c.i
+.PHONY : Core/Src/stm32h7xx_hal_timebase_tim.i
+
+# target to preprocess a source file
+Core/Src/stm32h7xx_hal_timebase_tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.i
+.PHONY : Core/Src/stm32h7xx_hal_timebase_tim.c.i
+
+Core/Src/stm32h7xx_hal_timebase_tim.s: Core/Src/stm32h7xx_hal_timebase_tim.c.s
+.PHONY : Core/Src/stm32h7xx_hal_timebase_tim.s
+
+# target to generate assembly for a file
+Core/Src/stm32h7xx_hal_timebase_tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.s
+.PHONY : Core/Src/stm32h7xx_hal_timebase_tim.c.s
+
 Core/Src/stm32h7xx_it.obj: Core/Src/stm32h7xx_it.c.obj
 .PHONY : Core/Src/stm32h7xx_it.obj
 
@@ -333,30 +394,6 @@ Core/Src/sysmem.s: Core/Src/sysmem.c.s
 Core/Src/sysmem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.s
 .PHONY : Core/Src/sysmem.c.s
-
-Core/Src/tim.obj: Core/Src/tim.c.obj
-.PHONY : Core/Src/tim.obj
-
-# target to build an object file
-Core/Src/tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj
-.PHONY : Core/Src/tim.c.obj
-
-Core/Src/tim.i: Core/Src/tim.c.i
-.PHONY : Core/Src/tim.i
-
-# target to preprocess a source file
-Core/Src/tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.i
-.PHONY : Core/Src/tim.c.i
-
-Core/Src/tim.s: Core/Src/tim.c.s
-.PHONY : Core/Src/tim.s
-
-# target to generate assembly for a file
-Core/Src/tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.s
-.PHONY : Core/Src/tim.c.s
 
 Core/Src/usart.obj: Core/Src/usart.c.obj
 .PHONY : Core/Src/usart.obj
@@ -519,6 +556,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CtrBoard-H7_DBUS"
+	@echo "... FreeRTOS"
 	@echo "... STM32_Drivers"
 	@echo "... Core/Src/dma.obj"
 	@echo "... Core/Src/dma.i"
@@ -526,6 +564,9 @@ help:
 	@echo "... Core/Src/fdcan.obj"
 	@echo "... Core/Src/fdcan.i"
 	@echo "... Core/Src/fdcan.s"
+	@echo "... Core/Src/freertos.obj"
+	@echo "... Core/Src/freertos.i"
+	@echo "... Core/Src/freertos.s"
 	@echo "... Core/Src/gpio.obj"
 	@echo "... Core/Src/gpio.i"
 	@echo "... Core/Src/gpio.s"
@@ -535,6 +576,9 @@ help:
 	@echo "... Core/Src/stm32h7xx_hal_msp.obj"
 	@echo "... Core/Src/stm32h7xx_hal_msp.i"
 	@echo "... Core/Src/stm32h7xx_hal_msp.s"
+	@echo "... Core/Src/stm32h7xx_hal_timebase_tim.obj"
+	@echo "... Core/Src/stm32h7xx_hal_timebase_tim.i"
+	@echo "... Core/Src/stm32h7xx_hal_timebase_tim.s"
 	@echo "... Core/Src/stm32h7xx_it.obj"
 	@echo "... Core/Src/stm32h7xx_it.i"
 	@echo "... Core/Src/stm32h7xx_it.s"
@@ -544,9 +588,6 @@ help:
 	@echo "... Core/Src/sysmem.obj"
 	@echo "... Core/Src/sysmem.i"
 	@echo "... Core/Src/sysmem.s"
-	@echo "... Core/Src/tim.obj"
-	@echo "... Core/Src/tim.i"
-	@echo "... Core/Src/tim.s"
 	@echo "... Core/Src/usart.obj"
 	@echo "... Core/Src/usart.i"
 	@echo "... Core/Src/usart.s"

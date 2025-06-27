@@ -53,5 +53,5 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj: \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/stm32h7xx_it.h \
- /Users/apple/Desktop/Damiao_remote/Spinnnn/User/uart_bsp.h
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/User/uart_bsp.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/stm32h7xx_it.h

@@ -53,13 +53,29 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj: \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/User/uart_bsp.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/FreeRTOSConfig.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/dma.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/main.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/fdcan.h \
- /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/tim.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/usart.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/gpio.h \
- /Users/apple/Desktop/Damiao_remote/Spinnnn/User/uart_bsp.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/User/bsp_fdcan.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/User/dm_motor_ctrl.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/User/dm_motor_drv.h \

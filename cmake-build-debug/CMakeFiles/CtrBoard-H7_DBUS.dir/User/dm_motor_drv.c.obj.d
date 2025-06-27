@@ -54,6 +54,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj: \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/User/uart_bsp.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/fdcan.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/main.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/User/bsp_fdcan.h

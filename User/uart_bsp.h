@@ -47,6 +47,7 @@ typedef struct
         uint8_t h;
     } key;
 } remoter_t;
+extern remoter_t * channels;
 remoter_t * get_remoter(void);
 void Process_Data(uint8_t*, uint16_t ,UART_HandleTypeDef *);
 #endif /*__UART_BSP_H__ */

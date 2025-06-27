@@ -7,6 +7,7 @@
 
 __attribute__((section(".sram4"))) uint8_t rx_buff[BUFF_SIZE * 2];
 remoter_t remoter;
+remoter_t * channels = &remoter;
 // 发送uint16数据
 remoter_t * get_remoter(void)
 {

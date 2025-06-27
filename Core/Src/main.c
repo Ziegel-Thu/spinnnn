@@ -18,9 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "cmsis_os.h"
 #include "dma.h"
 #include "fdcan.h"
-#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -39,7 +39,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-remoter_t * channels;
 void usart_printf(const char *fmt,...)
 {
     static uint8_t tx_buf[256] = {0};
@@ -69,22 +68,13 @@ void usart_printf(const char *fmt,...)
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-    /* USER CODE BEGIN Callback 0 */
-    // if (htim->Instance == TIM3) {
 
-    //     read_all_motor_data(&motor[Motor1]);
-
-    //     if(motor[Motor1].tmp.read_flag == 0)
-    //         dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
-    // }
-}
 /* USER CODE END 0 */
 
 /**
@@ -115,121 +105,44 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-    MX_DMA_Init();
-    MX_USART1_UART_Init();
-    MX_UART5_Init();
-  MX_FDCAN1_Init();
-  MX_FDCAN2_Init();
-  MX_FDCAN3_Init();
-  MX_TIM3_Init();
+  MX_DMA_Init();
+  MX_USART1_UART_Init();
+  MX_UART5_Init();
+
+
+   for (int i =0; i< BUFF_SIZE*2; i++){
+       rx_buff[i]=0;
+   }
+   channels = get_remoter();
+   channels->data_updated = 0;  // 初始化时清零标志位
+   HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
+
+
+    MX_FDCAN1_Init();
+    MX_FDCAN2_Init();
+    MX_FDCAN3_Init();
   /* USER CODE BEGIN 2 */
-    power(1);
-    //HAL_Delay(1000);
-  bsp_fdcan_set_baud(&hfdcan1, CAN_CLASS, CAN_BR_1M);
-  
+
 	bsp_can_init();
-	dm_motor_init();
-
-	motor[Motor1].ctrl.mode = mit_mode;
-    motor[Motor2].ctrl.mode = mit_mode;
-	//HAL_Delay(100);
-	write_motor_data(motor[Motor1].id, 10, mit_mode, 0, 0, 0);
-    write_motor_data(motor[Motor2].id, 10, mit_mode, 0, 0, 0);
-    //HAL_Delay(100);
-    read_motor_data(motor[Motor1].id, RID_CAN_BR);
-	dm_motor_disable(&hfdcan1, &motor[Motor1]);
-    read_motor_data(motor[Motor2].id, RID_CAN_BR);
-    dm_motor_disable(&hfdcan1, &motor[Motor2]);
-	//HAL_Delay(100);
-	save_motor_data(motor[Motor1].id, 10);
-    save_motor_data(motor[Motor2].id, 10);
-	//HAL_Delay(100);
-	dm_motor_enable(&hfdcan1, &motor[Motor1]);
-    dm_motor_enable(&hfdcan1, &motor[Motor2]);
-	//HAL_Delay(1000);
-    uint8_t data2[8] = {127,255,127,240,0,0,8,9};
-    fdcanx_send_data(&hfdcan1, motor[Motor1].id, data2, 8);
-    fdcanx_send_data(&hfdcan1, motor[Motor2].id, data2, 8);
-
-    HAL_TIM_Base_Start_IT(&htim3);
-
-  for (int i =0; i< BUFF_SIZE*2; i++){
-      rx_buff[i]=0;
-  }
-  channels = get_remoter();
-  channels->data_updated = 0;  // 初始化时清零标志位
-//
-//  motor[Motor1].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
-//  motor[Motor1].ctrl.vel_set = 0.0f;     // 设置速度
-//  motor[Motor1].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
-//  motor[Motor1].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
-//  motor[Motor1].ctrl.tor_set = 0.05f;     // 设置转矩为0
-
-
-//    dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
-    HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
-//	HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
-//	HAL_UARTEx_ReceiveToIdle_DMA(&huart8, rx_buff, BUFF_SIZE*2);
 
   /* USER CODE END 2 */
 
+  /* Call init function for freertos objects (in freertos.c) */
+  MX_FREERTOS_Init();
+
+  /* Start scheduler */
+  osKernelStart();
+
+//  remoter_t * remoter = get_remoter();
+
+    /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
     /* USER CODE END WHILE */
-
     /* USER CODE BEGIN 3 */
-    // 检查数据更新标志位
-     if (channels->data_updated) {
-         usart_printf("ch[0]:%d\r\n", channels->rc.ch[0]);
-         usart_printf("ch[1]:%d\r\n", channels->rc.ch[1]);
-         usart_printf("ch[2]:%d\r\n", channels->rc.ch[2]);
-         usart_printf("ch[3]:%d\r\n", channels->rc.ch[3]);
-         usart_printf("ch[4]:%d\r\n", channels->rc.ch[4]);
-         usart_printf("ch[5]:%d\r\n", channels->rc.ch[5]);
- //        usart_printf("ch[6]:%d\r\n", channels->rc.ch[6]);
- //        usart_printf("ch[7]:%d\r\n", channels->rc.ch[7]);
- //        usart_printf("ch[8]:%d\r\n", channels->rc.ch[8]);
- //        usart_printf("ch[9]:%d\r\n", channels->rc.ch[9]);
- //        usart_printf("ch[10]:%d\r\n", channels->rc.ch[10]);
- //        usart_printf("ch[11]:%d\r\n", channels->rc.ch[11]);
- //        usart_printf("ch[12]:%d\r\n", channels->rc.ch[12]);
- //        usart_printf("ch[13]:%d\r\n", channels->rc.ch[13]);
- //        usart_printf("ch[14]:%d\r\n", channels->rc.ch[14]);
- //        usart_printf("ch[15]:%d\r\n", channels->rc.ch[15]);
-         usart_printf("online:%d\r\n", channels->online);
-         usart_printf("-------------------\r\n");
-         channels->data_updated = 0;  // 清除标志位
-         motor[Motor1].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
-         motor[Motor1].ctrl.vel_set = 0.0f;     // 设置速度
-         motor[Motor1].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
-         motor[Motor1].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
-         motor[Motor1].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
-         motor[Motor2].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
-         motor[Motor2].ctrl.vel_set = 0.0f;     // 设置速度
-         motor[Motor2].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
-         motor[Motor2].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
-         motor[Motor2].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
-//         motor[Motor3].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
-//         motor[Motor3].ctrl.vel_set = 0.0f;     // 设置速度
-//         motor[Motor3].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
-//         motor[Motor3].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
-//         motor[Motor3].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
-//         motor[Motor4].ctrl.pos_set = 0.0f;    // 设置目标位置为1圈（2π）
-//         motor[Motor4].ctrl.vel_set = 0.0f;     // 设置速度
-//         motor[Motor4].ctrl.kp_set = 0.0f;      // 设置位置环比例增益
-//         motor[Motor4].ctrl.kd_set = 0.0f;      // 设置位置环微分增益
-//         motor[Motor4].ctrl.tor_set = (channels->rc.ch[3] - 1024) * 0.0001f;     // 设置转矩为0
-         dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
-         dm_motor_ctrl_send(&hfdcan1, &motor[Motor2]);
-//         dm_motor_ctrl_send(&hfdcan1, &motor[Motor3]);
-//         dm_motor_ctrl_send(&hfdcan1, &motor[Motor4]);
 
-
-         HAL_Delay(100);
-
-     }
 
   }
   /* USER CODE END 3 */
@@ -296,6 +209,33 @@ void SystemClock_Config(void)
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
+
+/**
+  * @brief  Period elapsed callback in non blocking mode
+  * @note   This function is called  when TIM1 interrupt took place, inside
+  * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
+  * a global variable "uwTick" used as application time base.
+  * @param  htim : TIM handle
+  * @retval None
+  */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+  /* USER CODE BEGIN Callback 0 */
+    // if (htim->Instance == TIM3) {
+
+    //     read_all_motor_data(&motor[Motor1]);
+
+    //     if(motor[Motor1].tmp.read_flag == 0)
+    //     dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
+    // }
+  /* USER CODE END Callback 0 */
+  if (htim->Instance == TIM1) {
+    HAL_IncTick();
+  }
+  /* USER CODE BEGIN Callback 1 */
+
+  /* USER CODE END Callback 1 */
+}
 
 /**
   * @brief  This function is executed in case of error occurrence.
