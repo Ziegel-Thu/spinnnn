@@ -11,8 +11,35 @@
 void bsp_can_init(void)
 {
 	
-	can_filter_init();
-	HAL_FDCAN_Start(&hfdcan1);                               //开启FDCAN
+	//can_filter_init();
+    FDCAN_FilterTypeDef fdcan_filter;
+
+    fdcan_filter.IdType = FDCAN_STANDARD_ID;                       //标准ID
+    fdcan_filter.FilterIndex = 0;                                  //滤波器索引
+    fdcan_filter.FilterType = FDCAN_FILTER_MASK;
+    fdcan_filter.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;           //过滤器0关联到FIFO0
+    fdcan_filter.FilterID1 = 0x00;
+    fdcan_filter.FilterID2 = 0x00;
+    if(HAL_FDCAN_ConfigFilter(&hfdcan1, &fdcan_filter) != HAL_OK)
+    {
+		Error_Handler();
+	}
+		
+  if (HAL_FDCAN_ConfigGlobalFilter(&hfdcan1, FDCAN_REJECT, FDCAN_REJECT, FDCAN_FILTER_REMOTE, FDCAN_FILTER_REMOTE) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  if (HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0) != HAL_OK)
+  {
+    Error_Handler();
+  }
+ 
+  if (HAL_FDCAN_Start(&hfdcan1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+	//HAL_FDCAN_Start(&hfdcan1);                               //开启FDCAN
 //	HAL_FDCAN_Start(&hfdcan2);
 //	HAL_FDCAN_Start(&hfdcan3);
 //	HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_WATERMARK, 0);
@@ -44,10 +71,10 @@ void can_filter_init(void)
 	fdcan_filter.FilterID1 = 0x00;                               
 	fdcan_filter.FilterID2 = 0x00;
 
-	HAL_FDCAN_ConfigFilter(&hfdcan1,&fdcan_filter); 		 				  //接收ID2
+	// HAL_FDCAN_ConfigFilter(&hfdcan1,&fdcan_filter); 		 				  //接收ID2
 	//拒绝接收匹配不成功的标准ID和扩展ID,不接受远程帧
-	HAL_FDCAN_ConfigGlobalFilter(&hfdcan1,FDCAN_REJECT,FDCAN_REJECT,FDCAN_REJECT_REMOTE,FDCAN_REJECT_REMOTE);
-	HAL_FDCAN_ConfigFifoWatermark(&hfdcan1, FDCAN_CFG_RX_FIFO0, 1);
+	// HAL_FDCAN_ConfigGlobalFilter(&hfdcan1,FDCAN_REJECT,FDCAN_REJECT,FDCAN_REJECT_REMOTE,FDCAN_REJECT_REMOTE);
+	// HAL_FDCAN_ConfigFifoWatermark(&hfdcan1, FDCAN_CFG_RX_FIFO0, 1);
 //	HAL_FDCAN_ConfigFifoWatermark(&hfdcan1, FDCAN_CFG_RX_FIFO1, 1);
 //	HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_TX_COMPLETE, FDCAN_TX_BUFFER0);
 }

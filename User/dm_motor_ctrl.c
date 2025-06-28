@@ -54,26 +54,26 @@ void dm_motor_6215_init(void)
 	 for(int i=0;i<4;i++){
 	 	write_motor_data(motor[i].id, 10, mit_mode, 0, 0, 0);
 	 }
-////	HAL_Delay(100);
+	HAL_Delay(100);
 	// for(int i=0;i<4;i++){
 	// 	read_motor_data(motor[i].id, RID_CAN_BR);
 	// }
-////	HAL_Delay(100);
+//	HAL_Delay(100);
 	for(int i=0;i<4;i++){
 		dm_motor_disable(&hfdcan1, &motor[i]);
 	}
-////	HAL_Delay(100);
+	HAL_Delay(100);
 	for(int i=0;i<4;i++){
 		save_motor_data(motor[i].id, 10);
 	}
-////	HAL_Delay(100);
+	HAL_Delay(100);
 	for(int i=0;i<4;i++){
 		dm_motor_enable(&hfdcan1, &motor[i]);
 	}
 //
-////	HAL_Delay(1000);
-    uint8_t data2[8] = {127,255,127,240,0,0,8,9};
-    fdcanx_send_data(&hfdcan1, motor[Motor1].id, data2, 8);
+	HAL_Delay(1000);
+    uint8_t data2[8] = {127,255,127,240,0,0,8,19};
+    //fdcanx_send_data(&hfdcan1, motor[Motor1].id, data2, 8);
 }
 /**
 ************************************************************************
