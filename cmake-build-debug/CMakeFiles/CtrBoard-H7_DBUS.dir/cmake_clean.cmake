@@ -30,6 +30,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj.d"
   "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj"
   "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj.d"
+  "CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj"
+  "CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj.d"
   "CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj"
   "CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj.d"
   "CMakeFiles/CtrBoard-H7_DBUS.dir/startup_stm32h723xx.s.obj"

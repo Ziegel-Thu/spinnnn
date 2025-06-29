@@ -40,6 +40,9 @@ void sbus_frame_parse(remoter_t *remoter, uint8_t *buf)
     remoter->rc.ch[13] = ((int16_t)buf[18] >> 7 | ((int16_t)buf[19] << 1 )  | (int16_t)buf[20] <<  9 ) & 0x07FF;
     remoter->rc.ch[14] = ((int16_t)buf[20] >> 2 | ((int16_t)buf[21] << 6 )) & 0x07FF;
     remoter->rc.ch[15] = ((int16_t)buf[21] >> 5 | ((int16_t)buf[22] << 3 )) & 0x07FF;
+    for(int i=0;i<4;i++){
+        remoter->rc.ch[i] -= CHANNEL_OFFSET;
+    }
 
     remoter->data_updated = 1;  // 设置数据更新标志位
 }

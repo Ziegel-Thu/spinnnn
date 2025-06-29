@@ -43,6 +43,7 @@ add_subdirectory(cmake/stm32cubemx)
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined library search paths
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/DSP/Lib/GCC
 )
 
 # Add sources to executable
@@ -53,22 +54,31 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/User/delay.c
     ${CMAKE_CURRENT_SOURCE_DIR}/User/dm_motor_ctrl.c
     ${CMAKE_CURRENT_SOURCE_DIR}/User/dm_motor_drv.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/User/motor.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     ${CMAKE_CURRENT_SOURCE_DIR}/User
-)
+    ${CMAKE_CURRENT_SOURCE_DIR}/Middlewares/Third_Party/FreeRTOS/Source/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/Middlewares
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/DSP/Include
+    )
 
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined symbols
-)
+    ARM_MATH_CM7
+    __FPU_PRESENT=1
+    __TARGET_FPU_VFP
+    )
 
 # Add linked libraries
 target_link_libraries(${CMAKE_PROJECT_NAME}
     stm32cubemx
+    arm_cortexM7lfdp_math
 
     # Add user defined libraries
 )

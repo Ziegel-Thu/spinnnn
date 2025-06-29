@@ -14,18 +14,23 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "ARM_MATH_CM7"
   "DEBUG"
   "STM32H723xx"
   "USE_HAL_DRIVER"
+  "__FPU_PRESENT=1"
+  "__TARGET_FPU_VFP"
   )
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/User"
+  "/Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc"
+  "/Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares"
+  "/Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/CMSIS/DSP/Include"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
-  "/Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
@@ -49,6 +54,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/User/delay.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj.d"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/User/dm_motor_ctrl.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj.d"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/User/dm_motor_drv.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj.d"
+  "/Users/apple/Desktop/Damiao_remote/Spinnnn/User/motor.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj.d"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/User/uart_bsp.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj.d"
   )
 

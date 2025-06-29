@@ -515,6 +515,30 @@ User/dm_motor_drv.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.s
 .PHONY : User/dm_motor_drv.c.s
 
+User/motor.obj: User/motor.c.obj
+.PHONY : User/motor.obj
+
+# target to build an object file
+User/motor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj
+.PHONY : User/motor.c.obj
+
+User/motor.i: User/motor.c.i
+.PHONY : User/motor.i
+
+# target to preprocess a source file
+User/motor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.i
+.PHONY : User/motor.c.i
+
+User/motor.s: User/motor.c.s
+.PHONY : User/motor.s
+
+# target to generate assembly for a file
+User/motor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.s
+.PHONY : User/motor.c.s
+
 User/uart_bsp.obj: User/uart_bsp.c.obj
 .PHONY : User/uart_bsp.obj
 
@@ -603,6 +627,9 @@ help:
 	@echo "... User/dm_motor_drv.obj"
 	@echo "... User/dm_motor_drv.i"
 	@echo "... User/dm_motor_drv.s"
+	@echo "... User/motor.obj"
+	@echo "... User/motor.i"
+	@echo "... User/motor.s"
 	@echo "... User/uart_bsp.obj"
 	@echo "... User/uart_bsp.i"
 	@echo "... User/uart_bsp.s"
