@@ -63,4 +63,21 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj: \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/FreeRTOSConfig.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h

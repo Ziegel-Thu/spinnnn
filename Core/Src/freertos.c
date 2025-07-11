@@ -154,14 +154,28 @@ void CanTaskEntry(void const * argument)
 {
   /* USER CODE BEGIN CanTaskEntry */
   dm_motor_6215_init();
-  /* Infinite loop */
+  dm_motor_6220_init();
+  osDelay(1000);
+
+    /* Infinite loop */
   for(;;)
   {
-    dm_motor_ctrl_send(&hfdcan1, &motor[Motor3]);
-    dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
-    dm_motor_ctrl_send(&hfdcan1, &motor[Motor2]);
-    dm_motor_ctrl_send(&hfdcan1, &motor[Motor4]);
-    //usart_printf("Torque, %.3f\r\n", motor[Motor1].ctrl.tor_set);
+      dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
+      osDelay(3);
+      dm_motor_ctrl_send(&hfdcan1, &motor[Motor2]);
+      osDelay(3);
+      dm_motor_ctrl_send(&hfdcan1, &motor[Motor3]);
+      osDelay(3);
+      dm_motor_ctrl_send(&hfdcan1, &motor[Motor4]);
+      osDelay(3);
+      dm_motor_ctrl_send(&hfdcan1, &motor[Motor5]);
+      osDelay(3);
+      dm_motor_ctrl_send(&hfdcan1, &motor[Motor6]);
+      osDelay(3);
+      dm_motor_ctrl_send(&hfdcan1, &motor[Motor7]);
+      osDelay(3);
+      dm_motor_ctrl_send(&hfdcan1, &motor[Motor8]);
+
     osDelay(10);
 
   }

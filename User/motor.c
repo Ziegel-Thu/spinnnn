@@ -28,7 +28,7 @@ void calculate_motor_data(remoter_t * channels){
 
     
     Control_Info.Vx = neglect_noise(channels->rc.ch[3]);
-    Control_Info.Vy = neglect_noise(channels->rc.ch[2]);
+    Control_Info.Vy = -1 * neglect_noise(channels->rc.ch[2]);
     Control_Info.Vomega = neglect_noise(-channels->rc.ch[0]);
     float tangent[2] = {Control_Info.Vomega,0};
     for(int i = 0; i < 4; i++){
@@ -94,6 +94,10 @@ void MotorTaskEntry(void const * argument)
             for(int i = 0; i < 4; i++){
                 motor[i].ctrl.vel_set = Control_Info.Target_Velocity[i];
                 motor[i].ctrl.kd_set = 0.3f;
+            }
+            for(int i = 4; i < 8; i++){
+                motor[i].ctrl.pos_set = Control_Info.Target_Position[i-4];
+                motor[i].ctrl.kp_set = 0.1f;
             }
 //         dm_motor_ctrl_send(&hfdcan1, &motor[Motor3]);
 //         dm_motor_ctrl_send(&hfdcan1, &motor[Motor4]);

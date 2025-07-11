@@ -2,8 +2,10 @@
 #include "dm_motor_ctrl.h"
 #include "string.h"
 #include "stdbool.h"
+#include "cmsis_os.h"
 
 motor_t motor[num];
+
 
 
 /**
@@ -15,11 +17,12 @@ motor_t motor[num];
 *               ����ID������ģʽ������ģʽ����Ϣ��
 ************************************************************************
 **/
+
 void dm_motor_6215_init(void)
 {
     HAL_GPIO_WritePin(GPIOC,GPIO_PIN_14,1);
     HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,1);
-	// HAL_Delay(1000);
+	 osDelay(1000);
     //bsp_fdcan_set_baud(&hfdcan1, CAN_CLASS, CAN_BR_1M);
     // ��ʼ��Motor1��Motor2�ĵ���ṹ
 	memset(&motor[Motor1], 0, sizeof(motor[Motor1]));
@@ -29,14 +32,14 @@ void dm_motor_6215_init(void)
 
 
 	// ����Motor1�ĵ����Ϣ
-	motor[Motor1].id = 0x51;
-	motor[Motor1].mst_id = 0x61;	// ʵ��û�����ϣ�ֻ����ʶ����
-	motor[Motor2].id = 0x52;
-	motor[Motor2].mst_id = 0x62;	// ʵ��û�����ϣ�ֻ����ʶ����
-	motor[Motor3].id = 0x53;
-	motor[Motor3].mst_id = 0x63;	// ʵ��û�����ϣ�ֻ����ʶ����
-    motor[Motor4].id = 0x54;
-    motor[Motor4].mst_id = 0x64;	// ʵ��û�����ϣ�ֻ����ʶ����
+	motor[Motor1].id = 0x53;
+	motor[Motor1].mst_id = 0x63;	// ʵ��û�����ϣ�ֻ����ʶ����
+	motor[Motor2].id = 0x54;
+	motor[Motor2].mst_id = 0x64;	// ʵ��û�����ϣ�ֻ����ʶ����
+	motor[Motor3].id = 0x52;
+	motor[Motor3].mst_id = 0x62;	// ʵ��û�����ϣ�ֻ����ʶ����
+    motor[Motor4].id = 0x51;
+    motor[Motor4].mst_id = 0x61;	// ʵ��û�����ϣ�ֻ����ʶ����
 	for(int i=0;i<4;i++){
 		motor[i].ctrl.mode = mit_mode;
 		motor[i].ctrl.vel_set = 0.0f;
@@ -50,30 +53,76 @@ void dm_motor_6215_init(void)
 		motor[i].tmp.VMAX		= 30.0f;
 		motor[i].tmp.TMAX		= 10.0f;
 	}
-//	// HAL_Delay(100);
+//	// osDelay(100);
 	 for(int i=0;i<4;i++){
 	 	write_motor_data(motor[i].id, 10, mit_mode, 0, 0, 0);
+         osDelay(20);
 	 }
-	HAL_Delay(100);
+	osDelay(100);
 	// for(int i=0;i<4;i++){
 	// 	read_motor_data(motor[i].id, RID_CAN_BR);
 	// }
-//	HAL_Delay(100);
+//	osDelay(100);
 	for(int i=0;i<4;i++){
 		dm_motor_disable(&hfdcan1, &motor[i]);
-	}
-	HAL_Delay(100);
+        osDelay(20);
+
+    }
 	for(int i=0;i<4;i++){
 		save_motor_data(motor[i].id, 10);
-	}
-	HAL_Delay(100);
+        osDelay(20);
+
+    }
 	for(int i=0;i<4;i++){
 		dm_motor_enable(&hfdcan1, &motor[i]);
+        osDelay(50);
 	}
 //
-	HAL_Delay(1000);
-    uint8_t data2[8] = {127,255,127,240,0,0,8,19};
-    //fdcanx_send_data(&hfdcan1, motor[Motor1].id, data2, 8);
+	osDelay(1000);
+}
+void dm_motor_6220_init(void){
+	memset(&motor[Motor5], 0, sizeof(motor[Motor5]));
+	memset(&motor[Motor6], 0, sizeof(motor[Motor6]));
+	memset(&motor[Motor7], 0, sizeof(motor[Motor7]));
+	memset(&motor[Motor8], 0, sizeof(motor[Motor8]));
+	motor[Motor5].id = 0x03;
+	motor[Motor5].mst_id = 0x13;	// ʵ��û�����ϣ�ֻ����ʶ����
+	motor[Motor6].id = 0x04;
+	motor[Motor6].mst_id = 0x14;	// ʵ��û�����ϣ�ֻ����ʶ����
+	motor[Motor7].id = 0x02;
+	motor[Motor7].mst_id = 0x12;	// ʵ��û�����ϣ�ֻ����ʶ����
+    motor[Motor8].id = 0x01;
+    motor[Motor8].mst_id = 0x11;	// ʵ��û�����ϣ�ֻ����ʶ����
+	for(int i=4;i<8;i++){
+		motor[i].ctrl.mode = mit_mode;
+		motor[i].ctrl.vel_set = 0.0f;
+		motor[i].ctrl.pos_set = 0.0f;
+		motor[i].ctrl.tor_set = 0.0f;
+		motor[i].ctrl.cur_set = 0.02f;
+		motor[i].ctrl.kp_set = 0.0f;
+		motor[i].ctrl.kd_set = 0.0f;
+		motor[i].tmp.read_flag = 1;
+		motor[i].tmp.PMAX		= 12.5f;
+		motor[i].tmp.VMAX		= 30.0f;
+		motor[i].tmp.TMAX		= 10.0f;
+	}
+	for(int i=4;i<8;i++){
+		write_motor_data(motor[i].id, 10, mit_mode, 0, 0, 0);
+        osDelay(20);
+    }
+	for(int i=4;i<8;i++){
+		dm_motor_disable(&hfdcan1, &motor[i]);
+        osDelay(20);
+    }
+	for(int i=4;i<8;i++){
+		save_motor_data(motor[i].id, 10);
+        osDelay(20);
+
+    }
+	for(int i=4;i<8;i++){
+		dm_motor_enable(&hfdcan1, &motor[i]);
+        osDelay(50);
+	}
 }
 /**
 ************************************************************************
