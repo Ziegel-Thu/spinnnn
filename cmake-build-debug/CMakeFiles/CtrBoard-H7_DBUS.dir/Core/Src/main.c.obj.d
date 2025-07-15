@@ -74,6 +74,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj: \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/dma.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/main.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/fdcan.h \
+ /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/tim.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/usart.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Inc/gpio.h \
  /Users/apple/Desktop/Damiao_remote/Spinnnn/User/bsp_fdcan.h \

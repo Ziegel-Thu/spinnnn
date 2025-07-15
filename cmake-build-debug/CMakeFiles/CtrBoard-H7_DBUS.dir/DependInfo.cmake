@@ -49,6 +49,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/stm32h7xx_it.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj.d"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/syscalls.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj.d"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/sysmem.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj.d"
+  "/Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/tim.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj.d"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/usart.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj.d"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/User/bsp_fdcan.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj.d"
   "/Users/apple/Desktop/Damiao_remote/Spinnnn/User/delay.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj.d"

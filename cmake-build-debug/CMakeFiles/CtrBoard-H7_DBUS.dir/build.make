@@ -139,10 +139,24 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/fdcan.c -o CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.s
 
+CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
+CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/tim.c
+CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/tim.c
+
+CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/tim.c > CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.i
+
+CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/tim.c -o CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.s
+
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/usart.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/usart.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/stm32h7xx_it.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/stm32h7xx_it.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/stm32h7xx_hal_msp.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/stm32h7xx_hal_msp.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/stm32h7xx_hal_timebase_tim.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/stm32h7xx_hal_timebase_tim.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.s: cmake_f
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/sysmem.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/sysmem.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/syscalls.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/Core/Src/syscalls.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/startup_stm32h723xx.s.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/startup_stm32h723xx.s.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/startup_stm32h723xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/CtrBoard-H7_DBUS.dir/startup_stm32h723xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/CtrBoard-H7_DBUS.dir/startup_stm32h723xx.s.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/CtrBoard-H7_DBUS.dir/startup_stm32h723xx.s.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/startup_stm32h723xx.s
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/startup_stm32h723xx.s.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/startup_stm32h723xx.s.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/User/uart_bsp.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/User/uart_bsp.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/User/bsp_fdcan.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/User/bsp_fdcan.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.i: cmake_force
@@ -267,7 +281,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/User/delay.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/User/delay.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.i: cmake_force
@@ -281,7 +295,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/User/dm_motor_ctrl.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/User/dm_motor_ctrl.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.i: cmake_force
@@ -295,7 +309,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/User/dm_motor_drv.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/User/dm_motor_drv.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.i: cmake_force
@@ -309,7 +323,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.s: cmake_force
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/flags.make
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj: /Users/apple/Desktop/Damiao_remote/Spinnnn/User/motor.c
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj: CMakeFiles/CtrBoard-H7_DBUS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj -MF CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj.d -o CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj -c /Users/apple/Desktop/Damiao_remote/Spinnnn/User/motor.c
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.i: cmake_force
@@ -327,6 +341,7 @@ CtrBoard__H7_DBUS_OBJECTS = \
 "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.obj" \
+"CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj" \
 "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj" \
@@ -381,6 +396,7 @@ CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/gpio.c.obj
 CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj
 CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/dma.c.obj
 CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.obj
+CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj
 CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj
 CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj
 CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj
@@ -428,7 +444,7 @@ CtrBoard-H7_DBUS.elf: cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middleware
 CtrBoard-H7_DBUS.elf: cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/build.make
 CtrBoard-H7_DBUS.elf: CMakeFiles/CtrBoard-H7_DBUS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable CtrBoard-H7_DBUS.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable CtrBoard-H7_DBUS.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CtrBoard-H7_DBUS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -21,6 +21,7 @@
 #include "cmsis_os.h"
 #include "dma.h"
 #include "fdcan.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -108,22 +109,19 @@ int main(void)
   MX_DMA_Init();
   MX_USART1_UART_Init();
   MX_UART5_Init();
-
-
-   for (int i =0; i< BUFF_SIZE*2; i++){
-       rx_buff[i]=0;
-   }
-   channels = get_remoter();
-   channels->data_updated = 0;  // 初始化时清零标志位
-   HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
-
-
-    MX_FDCAN1_Init();
-    MX_FDCAN2_Init();
-    MX_FDCAN3_Init();
+  MX_FDCAN1_Init();
+  MX_FDCAN2_Init();
+  MX_FDCAN3_Init();
+  MX_TIM12_Init();
   /* USER CODE BEGIN 2 */
+  bsp_can_init();
 
-	bsp_can_init();
+  for (int i =0; i< BUFF_SIZE*2; i++){
+    rx_buff[i]=0;
+  }
+  channels = get_remoter();
+   channels->data_updated = 0;  // 初始化时清零标志位
+  HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
 
   /* USER CODE END 2 */
 
@@ -133,14 +131,13 @@ int main(void)
   /* Start scheduler */
   osKernelStart();
 
-//  remoter_t * remoter = get_remoter();
-
-    /* We should never get here as control is now taken by the scheduler */
+  /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
     /* USER CODE END WHILE */
+
     /* USER CODE BEGIN 3 */
 
 

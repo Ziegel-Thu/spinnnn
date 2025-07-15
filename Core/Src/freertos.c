@@ -28,6 +28,7 @@
 #include "uart_bsp.h"
 #include "dm_motor_ctrl.h"
 #include "usart.h"
+#include "tim.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -155,8 +156,20 @@ void CanTaskEntry(void const * argument)
   /* USER CODE BEGIN CanTaskEntry */
   dm_motor_6215_init();
   dm_motor_6220_init();
-  osDelay(1000);
+  osDelay(200);
+  __HAL_TIM_SET_AUTORELOAD(&htim12, 60);
 
+
+  HAL_TIM_PWM_Start(&htim12, TIM_CHANNEL_2);
+  osDelay(100);
+  HAL_TIM_PWM_Stop(&htim12, TIM_CHANNEL_2);
+    osDelay(10);
+    __HAL_TIM_SET_AUTORELOAD(&htim12, 70);
+    HAL_TIM_PWM_Start(&htim12, TIM_CHANNEL_2);
+    osDelay(100);
+    HAL_TIM_PWM_Stop(&htim12, TIM_CHANNEL_2);
+
+    
     /* Infinite loop */
   for(;;)
   {
@@ -189,16 +202,7 @@ void CanTaskEntry(void const * argument)
 * @retval None
 */
 /* USER CODE END Header_MotorTaskEntry */
-__weak void MotorTaskEntry(void const * argument)
-{
-  /* USER CODE BEGIN MotorTaskEntry */
-  //osDelay(4000);
-    for(;;){
-      osDelay(1);
-    }  /* Infinite loop */
-
-  /* USER CODE END MotorTaskEntry */
-}
+// MotorTaskEntry implementation is in User/motor.c
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
