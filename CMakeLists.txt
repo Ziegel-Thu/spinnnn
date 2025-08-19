@@ -67,6 +67,9 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/DSP/Include
     )
 
+# Add User directory to stm32cubemx interface library so all libraries can access it
+target_include_directories(stm32cubemx INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/User)
+
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined symbols

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake/stm32cubemx
+# Install script for directory: /Users/apple/Documents/9A/4x4/AGV_jetson/cmake/stm32cubemx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

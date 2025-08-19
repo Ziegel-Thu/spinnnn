@@ -57,18 +57,18 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/Damiao_remote/Spinnnn
+CMAKE_SOURCE_DIR = /Users/apple/Documents/9A/4x4/AGV_jetson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
+	/opt/homebrew/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Damiao_remote/Spinnnn/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,19 @@ STM32_Drivers: cmake_check_build_system
 STM32_Drivers/fast:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
+
+#=============================================================================
+# Target rules for targets named USB_Device_Library
+
+# Build rule for target.
+USB_Device_Library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 USB_Device_Library
+.PHONY : USB_Device_Library
+
+# fast build rule for target.
+USB_Device_Library/fast:
+	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build
+.PHONY : USB_Device_Library/fast
 
 #=============================================================================
 # Target rules for targets named FreeRTOS
@@ -443,6 +456,102 @@ Core/Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.s
 .PHONY : Core/Src/usart.c.s
 
+USB_DEVICE/App/usb_device.obj: USB_DEVICE/App/usb_device.c.obj
+.PHONY : USB_DEVICE/App/usb_device.obj
+
+# target to build an object file
+USB_DEVICE/App/usb_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/App/usb_device.c.obj
+.PHONY : USB_DEVICE/App/usb_device.c.obj
+
+USB_DEVICE/App/usb_device.i: USB_DEVICE/App/usb_device.c.i
+.PHONY : USB_DEVICE/App/usb_device.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usb_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/App/usb_device.c.i
+.PHONY : USB_DEVICE/App/usb_device.c.i
+
+USB_DEVICE/App/usb_device.s: USB_DEVICE/App/usb_device.c.s
+.PHONY : USB_DEVICE/App/usb_device.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usb_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/App/usb_device.c.s
+.PHONY : USB_DEVICE/App/usb_device.c.s
+
+USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.c.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.obj
+
+# target to build an object file
+USB_DEVICE/App/usbd_cdc_if.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.obj
+
+USB_DEVICE/App/usbd_cdc_if.i: USB_DEVICE/App/usbd_cdc_if.c.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usbd_cdc_if.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/App/usbd_cdc_if.c.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.i
+
+USB_DEVICE/App/usbd_cdc_if.s: USB_DEVICE/App/usbd_cdc_if.c.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_cdc_if.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/App/usbd_cdc_if.c.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.s
+
+USB_DEVICE/App/usbd_desc.obj: USB_DEVICE/App/usbd_desc.c.obj
+.PHONY : USB_DEVICE/App/usbd_desc.obj
+
+# target to build an object file
+USB_DEVICE/App/usbd_desc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/App/usbd_desc.c.obj
+.PHONY : USB_DEVICE/App/usbd_desc.c.obj
+
+USB_DEVICE/App/usbd_desc.i: USB_DEVICE/App/usbd_desc.c.i
+.PHONY : USB_DEVICE/App/usbd_desc.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usbd_desc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/App/usbd_desc.c.i
+.PHONY : USB_DEVICE/App/usbd_desc.c.i
+
+USB_DEVICE/App/usbd_desc.s: USB_DEVICE/App/usbd_desc.c.s
+.PHONY : USB_DEVICE/App/usbd_desc.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_desc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/App/usbd_desc.c.s
+.PHONY : USB_DEVICE/App/usbd_desc.c.s
+
+USB_DEVICE/Target/usbd_conf.obj: USB_DEVICE/Target/usbd_conf.c.obj
+.PHONY : USB_DEVICE/Target/usbd_conf.obj
+
+# target to build an object file
+USB_DEVICE/Target/usbd_conf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/Target/usbd_conf.c.obj
+.PHONY : USB_DEVICE/Target/usbd_conf.c.obj
+
+USB_DEVICE/Target/usbd_conf.i: USB_DEVICE/Target/usbd_conf.c.i
+.PHONY : USB_DEVICE/Target/usbd_conf.i
+
+# target to preprocess a source file
+USB_DEVICE/Target/usbd_conf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/Target/usbd_conf.c.i
+.PHONY : USB_DEVICE/Target/usbd_conf.c.i
+
+USB_DEVICE/Target/usbd_conf.s: USB_DEVICE/Target/usbd_conf.c.s
+.PHONY : USB_DEVICE/Target/usbd_conf.s
+
+# target to generate assembly for a file
+USB_DEVICE/Target/usbd_conf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/USB_DEVICE/Target/usbd_conf.c.s
+.PHONY : USB_DEVICE/Target/usbd_conf.c.s
+
 User/bsp_fdcan.obj: User/bsp_fdcan.c.obj
 .PHONY : User/bsp_fdcan.obj
 
@@ -606,6 +715,7 @@ help:
 	@echo "... CtrBoard-H7_DBUS"
 	@echo "... FreeRTOS"
 	@echo "... STM32_Drivers"
+	@echo "... USB_Device_Library"
 	@echo "... Core/Src/dma.obj"
 	@echo "... Core/Src/dma.i"
 	@echo "... Core/Src/dma.s"
@@ -642,6 +752,18 @@ help:
 	@echo "... Core/Src/usart.obj"
 	@echo "... Core/Src/usart.i"
 	@echo "... Core/Src/usart.s"
+	@echo "... USB_DEVICE/App/usb_device.obj"
+	@echo "... USB_DEVICE/App/usb_device.i"
+	@echo "... USB_DEVICE/App/usb_device.s"
+	@echo "... USB_DEVICE/App/usbd_cdc_if.obj"
+	@echo "... USB_DEVICE/App/usbd_cdc_if.i"
+	@echo "... USB_DEVICE/App/usbd_cdc_if.s"
+	@echo "... USB_DEVICE/App/usbd_desc.obj"
+	@echo "... USB_DEVICE/App/usbd_desc.i"
+	@echo "... USB_DEVICE/App/usbd_desc.s"
+	@echo "... USB_DEVICE/Target/usbd_conf.obj"
+	@echo "... USB_DEVICE/Target/usbd_conf.i"
+	@echo "... USB_DEVICE/Target/usbd_conf.s"
 	@echo "... User/bsp_fdcan.obj"
 	@echo "... User/bsp_fdcan.i"
 	@echo "... User/bsp_fdcan.s"

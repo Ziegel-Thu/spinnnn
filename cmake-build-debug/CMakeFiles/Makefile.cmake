@@ -22,13 +22,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Generic.cmake"
-  "/Users/apple/Desktop/Damiao_remote/Spinnnn/CMakeLists.txt"
+  "/Users/apple/Documents/9A/4x4/AGV_jetson/CMakeLists.txt"
   "CMakeFiles/3.30.5/CMakeASMCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeSystem.cmake"
-  "/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake/gcc-arm-none-eabi.cmake"
-  "/Users/apple/Desktop/Damiao_remote/Spinnnn/cmake/stm32cubemx/CMakeLists.txt"
+  "/Users/apple/Documents/9A/4x4/AGV_jetson/cmake/gcc-arm-none-eabi.cmake"
+  "/Users/apple/Documents/9A/4x4/AGV_jetson/cmake/stm32cubemx/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -47,5 +47,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CtrBoard-H7_DBUS.dir/DependInfo.cmake"
   "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/DependInfo.cmake"
+  "cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/DependInfo.cmake"
   "cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/DependInfo.cmake"
   )
