@@ -202,6 +202,7 @@ void CanTaskEntry(void const * argument)
 * @param argument: Not used
 * @retval None
 */
+
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
 
