@@ -93,11 +93,9 @@ void MotorTaskEntry(void const * argument)
             calculate_motor_data(channels);
             for(int i = 0; i < 4; i++){
                 motor[i].ctrl.vel_set = Control_Info.Target_Velocity[i];
-                motor[i].ctrl.kd_set = 0.3f;
             }
             for(int i = 4; i < 8; i++){
                 motor[i].ctrl.pos_set = Control_Info.Target_Position[i-4];
-                motor[i].ctrl.kp_set = 0.1f;
             }
 //         dm_motor_ctrl_send(&hfdcan1, &motor[Motor3]);
 //         dm_motor_ctrl_send(&hfdcan1, &motor[Motor4]);

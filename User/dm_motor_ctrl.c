@@ -22,7 +22,7 @@ void dm_motor_6215_init(void)
 {
     HAL_GPIO_WritePin(GPIOC,GPIO_PIN_14,1);
     HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,1);
-	 osDelay(200);
+	 osDelay(1000);
     //bsp_fdcan_set_baud(&hfdcan1, CAN_CLASS, CAN_BR_1M);
     // ��ʼ��Motor1��Motor2�ĵ���ṹ
 	memset(&motor[Motor1], 0, sizeof(motor[Motor1]));
@@ -41,7 +41,7 @@ void dm_motor_6215_init(void)
     motor[Motor4].id = 0x51;
     motor[Motor4].mst_id = 0x61;	// ʵ��û�����ϣ�ֻ����ʶ����
 	for(int i=0;i<4;i++){
-		motor[i].ctrl.mode = mit_mode;
+		motor[i].ctrl.mode = spd_mode;
 		motor[i].ctrl.vel_set = 0.0f;
 		motor[i].ctrl.pos_set = 0.0f;
 		motor[i].ctrl.tor_set = 0.0f;
@@ -53,7 +53,8 @@ void dm_motor_6215_init(void)
 		motor[i].tmp.VMAX		= 30.0f;
 		motor[i].tmp.TMAX		= 10.0f;
 	}
-//	// osDelay(100);
+
+	
 	for(int i=0;i<4;i++){
 		dm_motor_enable(&hfdcan1, &motor[i]);
         osDelay(50);
@@ -75,8 +76,8 @@ void dm_motor_6220_init(void){
     motor[Motor8].id = 0x01;
     motor[Motor8].mst_id = 0x11;	// ʵ��û�����ϣ�ֻ����ʶ����
 	for(int i=4;i<8;i++){
-		motor[i].ctrl.mode = mit_mode;
-		motor[i].ctrl.vel_set = 0.0f;
+		motor[i].ctrl.mode = pos_mode;
+		motor[i].ctrl.vel_set = 9.42f;
 		motor[i].ctrl.pos_set = 0.0f;
 		motor[i].ctrl.tor_set = 0.0f;
 		motor[i].ctrl.cur_set = 0.02f;
@@ -87,10 +88,14 @@ void dm_motor_6220_init(void){
 		motor[i].tmp.VMAX		= 30.0f;
 		motor[i].tmp.TMAX		= 10.0f;
 	}
-	for(int i=4;i<8;i++){
-		dm_motor_enable(&hfdcan1, &motor[i]);
+    for(int i=4;i<8;i++){
+        dm_motor_enable(&hfdcan1, &motor[i]);
         osDelay(50);
-	}
+    }
+    for(int i=4;i<8;i++){
+        dm_motor_enable(&hfdcan1, &motor[i]);
+        osDelay(50);
+    }
 }
 /**
 ************************************************************************
