@@ -61,9 +61,8 @@ osThreadId MotorTaskHandle;
 
 void StartDefaultTask(void const * argument);
 void CanTaskEntry(void const * argument);
-void MotorTaskEntry(void const * argument);
+extern void MotorTaskEntry(void const * argument);
 
-extern void MX_USB_DEVICE_Init(void);
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
 /* GetIdleTaskMemory prototype (linked to static allocation support) */
@@ -195,13 +194,6 @@ void CanTaskEntry(void const * argument)
   }
   /* USER CODE END CanTaskEntry */
 }
-
-/* USER CODE BEGIN Header_MotorTaskEntry */
-/**
-* @brief Function implementing the MotorTask thread.
-* @param argument: Not used
-* @retval None
-*/
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */

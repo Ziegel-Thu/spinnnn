@@ -47,6 +47,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CtrBoard-H7_DBUS.dir/DependInfo.cmake"
   "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/DependInfo.cmake"
-  "cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/DependInfo.cmake"
   "cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/DependInfo.cmake"
   )

@@ -23,7 +23,6 @@
 #include "fdcan.h"
 #include "tim.h"
 #include "usart.h"
-#include "usb_device.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -52,7 +51,7 @@ void usart_printf(const char *fmt,...)
     len = vsprintf((char *)tx_buf, fmt, ap);
 
     va_end(ap);
-    HAL_UART_Transmit(&huart1, tx_buf, len, 0xffff);
+    HAL_UART_Transmit(&huart7, tx_buf, len, 0xffff);
 
 }
 /* USER CODE END PD */
@@ -114,17 +113,25 @@ int main(void)
   MX_FDCAN2_Init();
   MX_FDCAN3_Init();
   MX_TIM12_Init();
+  MX_UART7_Init();
+  MX_USART10_UART_Init();
   /* USER CODE BEGIN 2 */
   bsp_can_init();
-  MX_USB_DEVICE_Init();
 
 
-    for (int i =0; i< BUFF_SIZE*2; i++){
+  for (int i =0; i< BUFF_SIZE*2; i++){
     rx_buff[i]=0;
   }
+  for (int i =0; i< TELEOP_BUFF_SIZE*2; i++){
+    rx_buff_teleop[i]=0;
+  }
+
   channels = get_remoter();
-   channels->data_updated = 0;  // 初始化时清零标志位
+  channels->data_updated = 0;  // 初始化时清零标志位
   HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
+  HAL_UARTEx_ReceiveToIdle_DMA(&huart1, rx_buff_teleop, TELEOP_BUFF_SIZE*2);
+
+  
 
   /* USER CODE END 2 */
 
@@ -170,9 +177,8 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI48|RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.HSI48State = RCC_HSI48_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 2;

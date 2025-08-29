@@ -53,9 +53,6 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj: \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
@@ -79,21 +76,11 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj: \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/fdcan.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/tim.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/usart.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/USB_DEVICE/App/usb_device.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/USB_DEVICE/Target/usbd_conf.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/gpio.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h
+ /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h

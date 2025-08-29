@@ -131,20 +131,6 @@ STM32_Drivers/fast:
 .PHONY : STM32_Drivers/fast
 
 # Convenience name for target.
-cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule
-.PHONY : cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule
-
-# Convenience name for target.
-USB_Device_Library: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule
-.PHONY : USB_Device_Library
-
-# fast build rule for target.
-USB_Device_Library/fast:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build
-.PHONY : USB_Device_Library/fast
-
-# Convenience name for target.
 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/rule:
 	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/rule
 .PHONY : cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/rule
@@ -494,54 +480,6 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s:
 	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s
 
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.obj
-
-# target to build an object file
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
-
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.i
-
-# target to preprocess a source file
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
-
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.s
-
-# target to generate assembly for a file
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
-
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.obj
-
-# target to build an object file
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
-
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.i
-
-# target to preprocess a source file
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
-
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.s
-
-# target to generate assembly for a file
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
-
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.obj
 
@@ -733,126 +671,6 @@ __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s: __/__/Drivers/ST
 __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s:
 	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 .PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
-
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj
-
-# target to build an object file
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i
-
-# target to preprocess a source file
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i
-
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s: __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s
-
-# target to generate assembly for a file
-__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
-.PHONY : __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
-
-# target to build an object file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i
-
-# target to preprocess a source file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s
-
-# target to generate assembly for a file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
-
-# target to build an object file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
-
-# target to preprocess a source file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
-
-# target to generate assembly for a file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
-
-# target to build an object file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
-
-# target to preprocess a source file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
-
-# target to generate assembly for a file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
-
-# target to build an object file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
-
-# target to preprocess a source file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
-
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
-
-# target to generate assembly for a file
-__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s:
-	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
-.PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
 
 __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 .PHONY : __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
@@ -1104,7 +922,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... FreeRTOS"
 	@echo "... STM32_Drivers"
-	@echo "... USB_Device_Library"
 	@echo "... __/__/Core/Src/system_stm32h7xx.obj"
 	@echo "... __/__/Core/Src/system_stm32h7xx.i"
 	@echo "... __/__/Core/Src/system_stm32h7xx.s"
@@ -1147,12 +964,6 @@ help:
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.obj"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.i"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.s"
-	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.obj"
-	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.i"
-	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.s"
-	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.obj"
-	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.i"
-	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.s"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.obj"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.i"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.s"
@@ -1177,21 +988,6 @@ help:
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.obj"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.i"
 	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s"
-	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj"
-	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i"
-	@echo "... __/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i"
-	@echo "... __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s"
 	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj"
 	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i"
 	@echo "... __/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s"

@@ -4,10 +4,12 @@
 #include "main.h"
 
 #define BUFF_SIZE	25
+#define TELEOP_BUFF_SIZE 6
 #define CHANNEL_OFFSET 1023
 
 
 extern uint8_t rx_buff[BUFF_SIZE * 2];
+extern uint8_t rx_buff_teleop[TELEOP_BUFF_SIZE * 2];
 
 typedef struct
 {
