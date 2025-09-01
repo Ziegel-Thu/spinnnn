@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/apple/Documents/9A/4x4/AGV_jetson/build/Debug/cmake_install.cmake",
+		"/Users/apple/Documents/9A/4x4/AGV_jetson/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

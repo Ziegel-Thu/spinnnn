@@ -4,12 +4,12 @@
 #include "main.h"
 
 #define BUFF_SIZE	25
-#define TELEOP_BUFF_SIZE 6
+#define TELEOP_BUFF_SIZE 7
 #define CHANNEL_OFFSET 1023
 
 
-extern uint8_t rx_buff[BUFF_SIZE * 2];
-extern uint8_t rx_buff_teleop[TELEOP_BUFF_SIZE * 2];
+extern uint8_t SBUS_MultiRx_Buf[2][BUFF_SIZE];
+extern uint8_t TELEOP_MultiRx_Buf[2][TELEOP_BUFF_SIZE];
 
 typedef struct
 {
@@ -53,5 +53,6 @@ typedef struct
 extern remoter_t * channels;
 remoter_t * get_remoter(void);
 void Process_Data(uint8_t*, uint16_t ,UART_HandleTypeDef *);
+void BSP_USART_Init(void);
 #endif /*__UART_BSP_H__ */
 

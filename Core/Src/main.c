@@ -119,17 +119,11 @@ int main(void)
   bsp_can_init();
 
 
-  for (int i =0; i< BUFF_SIZE*2; i++){
-    rx_buff[i]=0;
-  }
-  for (int i =0; i< TELEOP_BUFF_SIZE*2; i++){
-    rx_buff_teleop[i]=0;
-  }
+
 
   channels = get_remoter();
   channels->data_updated = 0;  // 初始化时清零标志位
-  HAL_UARTEx_ReceiveToIdle_DMA(&huart5, rx_buff, BUFF_SIZE*2);
-  HAL_UARTEx_ReceiveToIdle_DMA(&huart1, rx_buff_teleop, TELEOP_BUFF_SIZE*2);
+  BSP_USART_Init();
 
   
 
