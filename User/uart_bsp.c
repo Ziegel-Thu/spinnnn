@@ -111,8 +111,7 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
             {
                 Process_Data(SBUS_MultiRx_Buf[0],  Size, &huart5);
             }
-            memset(SBUS_MultiRx_Buf[0], 0, BUFF_SIZE);
-            
+
         }
         /* Current memory buffer used is Memory 1 */
         else
@@ -129,7 +128,6 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
             {
                 Process_Data(SBUS_MultiRx_Buf[1], Size, &huart5);
             }
-            memset(SBUS_MultiRx_Buf[1], 0, BUFF_SIZE);
         }
 
         huart->ReceptionType = HAL_UART_RECEPTION_TOIDLE;
@@ -158,7 +156,7 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 
             if (Size == TELEOP_BUFF_SIZE)
             {
-                Process_Data(TELEOP_MultiRx_Buf[0], TELEOP_BUFF_SIZE * 2, &huart1);
+                Process_Data(TELEOP_MultiRx_Buf[0],  Size, &huart1);
             }
             memset(TELEOP_MultiRx_Buf[0], 0, TELEOP_BUFF_SIZE);
         }
@@ -175,9 +173,10 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 
             if (Size == TELEOP_BUFF_SIZE)
             {
-                Process_Data(TELEOP_MultiRx_Buf[1], TELEOP_BUFF_SIZE * 2, &huart1);
-                memset(TELEOP_MultiRx_Buf[1], 0, TELEOP_BUFF_SIZE);
+                Process_Data(TELEOP_MultiRx_Buf[1],  Size, &huart1);
             }
+            memset(TELEOP_MultiRx_Buf[1], 0, TELEOP_BUFF_SIZE);
+
         }
 
         huart->ReceptionType = HAL_UART_RECEPTION_TOIDLE;
