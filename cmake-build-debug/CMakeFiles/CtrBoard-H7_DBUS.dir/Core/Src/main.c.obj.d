@@ -49,6 +49,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj: \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -74,6 +76,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj: \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/dma.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/main.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/fdcan.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/spi.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/tim.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/usart.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/gpio.h \

@@ -48,6 +48,8 @@ cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32h7xx.c
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \

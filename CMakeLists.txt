@@ -54,13 +54,15 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/User/delay.c
     ${CMAKE_CURRENT_SOURCE_DIR}/User/dm_motor_ctrl.c
     ${CMAKE_CURRENT_SOURCE_DIR}/User/dm_motor_drv.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/User/motor.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Tasks/Src/can_task.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Tasks/Src/motor_task.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     ${CMAKE_CURRENT_SOURCE_DIR}/User
+    ${CMAKE_CURRENT_SOURCE_DIR}/Tasks/Inc
     ${CMAKE_CURRENT_SOURCE_DIR}/Middlewares/Third_Party/FreeRTOS/Source/include
     ${CMAKE_CURRENT_SOURCE_DIR}/Core/Inc
     ${CMAKE_CURRENT_SOURCE_DIR}/Middlewares
@@ -69,6 +71,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 
 # Add User directory to stm32cubemx interface library so all libraries can access it
 target_include_directories(stm32cubemx INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/User)
+target_include_directories(stm32cubemx INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/Tasks/Inc)
 
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE

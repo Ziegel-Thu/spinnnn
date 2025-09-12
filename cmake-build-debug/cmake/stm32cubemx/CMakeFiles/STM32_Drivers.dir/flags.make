@@ -4,7 +4,7 @@
 # compile C with /opt/homebrew/bin/arm-none-eabi-gcc
 C_DEFINES = -DDEBUG -DSTM32H723xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -I/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc -I/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc -I/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include -I/Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I/Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include -I/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include -I/Users/apple/Documents/9A/4x4/AGV_jetson/User
+C_INCLUDES = -I/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc -I/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc -I/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include -I/Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I/Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include -I/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include -I/Users/apple/Documents/9A/4x4/AGV_jetson/User -I/Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc
 
 C_FLAGS =  -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
 

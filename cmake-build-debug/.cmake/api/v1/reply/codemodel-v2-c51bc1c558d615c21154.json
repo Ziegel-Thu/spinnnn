@@ -62,21 +62,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CtrBoard-H7_DBUS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CtrBoard-H7_DBUS-Debug-ea898e589cc53a2e9614.json",
+					"jsonFile" : "target-CtrBoard-H7_DBUS-Debug-4ddcd1be91a043e50687.json",
 					"name" : "CtrBoard-H7_DBUS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "FreeRTOS::@768a070a0fe75716b479",
-					"jsonFile" : "target-FreeRTOS-Debug-4c1a56293a6ad67b9615.json",
+					"jsonFile" : "target-FreeRTOS-Debug-b1361ef36fe922f28580.json",
 					"name" : "FreeRTOS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Debug-0ca1d7edae170976328a.json",
+					"jsonFile" : "target-STM32_Drivers-Debug-abf0e95eb38d4edb4ecb.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				}

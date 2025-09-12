@@ -349,10 +349,38 @@ cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Drive
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s"
 	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/cmake/stm32cubemx && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.s
 
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/flags.make
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj"
+	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/cmake/stm32cubemx && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj -MF CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj.d -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj -c /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c
+
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i"
+	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/cmake/stm32cubemx && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c > CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i
+
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s"
+	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/cmake/stm32cubemx && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s
+
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/flags.make
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj"
+	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/cmake/stm32cubemx && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj -MF CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj.d -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj -c /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c
+
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i"
+	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/cmake/stm32cubemx && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c > CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i
+
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s"
+	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/cmake/stm32cubemx && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s
+
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/flags.make
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
 	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/cmake/stm32cubemx && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -MF CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj.d -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -c /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
 
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i: cmake_force
@@ -366,7 +394,7 @@ cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Drive
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/flags.make
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
 	cd /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/cmake/stm32cubemx && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -MF CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj.d -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -c /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
 
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i: cmake_force
@@ -397,6 +425,8 @@ STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM3
 STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
 STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
 STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c.obj
+STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj
 STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
 STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
 STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make

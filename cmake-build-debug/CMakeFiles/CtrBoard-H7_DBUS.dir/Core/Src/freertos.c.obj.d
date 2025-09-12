@@ -58,6 +58,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj: \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -71,10 +73,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj: \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/fdcan.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/main.h \
- /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc/can_task.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc/motor_task.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/usart.h \
+ /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/main.h \
  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/tim.h

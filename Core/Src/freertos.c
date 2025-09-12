@@ -26,7 +26,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "uart_bsp.h"
-#include "dm_motor_ctrl.h"
+#include "can_task.h"
+#include "motor_task.h"
 #include "usart.h"
 #include "tim.h"
 /* USER CODE END Includes */
@@ -60,7 +61,7 @@ osThreadId MotorTaskHandle;
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void const * argument);
-void CanTaskEntry(void const * argument);
+extern void CanTaskEntry(void const * argument);
 extern void MotorTaskEntry(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
@@ -142,57 +143,6 @@ void StartDefaultTask(void const * argument)
     osDelay(10);
   }
   /* USER CODE END StartDefaultTask */
-}
-
-/* USER CODE BEGIN Header_CanTaskEntry */
-/**
-* @brief Function implementing the canTask thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_CanTaskEntry */
-void CanTaskEntry(void const * argument)
-{
-  /* USER CODE BEGIN CanTaskEntry */
-  dm_motor_6215_init();
-  dm_motor_6220_init();
-  osDelay(200);
-  __HAL_TIM_SET_AUTORELOAD(&htim12, 60);
-
-
-  HAL_TIM_PWM_Start(&htim12, TIM_CHANNEL_2);
-  osDelay(100);
-  HAL_TIM_PWM_Stop(&htim12, TIM_CHANNEL_2);
-    osDelay(10);
-    __HAL_TIM_SET_AUTORELOAD(&htim12, 70);
-    HAL_TIM_PWM_Start(&htim12, TIM_CHANNEL_2);
-    osDelay(100);
-    HAL_TIM_PWM_Stop(&htim12, TIM_CHANNEL_2);
-
-    
-    /* Infinite loop */
-  for(;;)
-  {
-      dm_motor_ctrl_send(&hfdcan1, &motor[Motor1]);
-      osDelay(3);
-      dm_motor_ctrl_send(&hfdcan1, &motor[Motor2]);
-      osDelay(3);
-      dm_motor_ctrl_send(&hfdcan1, &motor[Motor3]);
-      osDelay(3);
-      dm_motor_ctrl_send(&hfdcan1, &motor[Motor4]);
-      osDelay(3);
-      dm_motor_ctrl_send(&hfdcan1, &motor[Motor5]);
-      osDelay(3);
-      dm_motor_ctrl_send(&hfdcan1, &motor[Motor6]);
-      osDelay(3);
-      dm_motor_ctrl_send(&hfdcan1, &motor[Motor7]);
-      osDelay(3);
-      dm_motor_ctrl_send(&hfdcan1, &motor[Motor8]);
-
-    osDelay(10);
-
-  }
-  /* USER CODE END CanTaskEntry */
 }
 
 /* Private application code --------------------------------------------------*/

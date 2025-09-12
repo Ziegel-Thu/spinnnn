@@ -51,6 +51,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/dma.c.obj: /Users/apple/Documents/9A/4x
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -107,6 +109,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/fdcan.c.obj: /Users/apple/Documents/9A/
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -133,7 +137,6 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj: /Users/apple/Documents/
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/FreeRTOSConfig.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/fdcan.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/main.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/stm32h7xx_hal_conf.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/tim.h \
@@ -166,6 +169,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj: /Users/apple/Documents/
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -183,9 +188,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj: /Users/apple/Documents/
   /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc/can_task.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc/motor_task.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/gpio.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/gpio.c \
@@ -238,6 +242,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/gpio.c.obj: /Users/apple/Documents/9A/4
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -271,6 +277,7 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj: /Users/apple/Documents/9A/4
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/fdcan.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/gpio.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/main.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/spi.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/stm32h7xx_hal_conf.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/usart.h \
@@ -302,6 +309,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj: /Users/apple/Documents/9A/4
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -322,6 +331,64 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj: /Users/apple/Documents/9A/4
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h
+
+CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/spi.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/spi.c \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/math.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/main.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/stm32h7xx_hal_conf.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_version.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/core_cm7.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/mpu_armv7.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/stm32h7xx_hal_msp.c \
@@ -373,6 +440,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj: /Users/apple/D
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -427,6 +496,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: /User
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -482,6 +553,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj: /Users/apple/Docume
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -606,6 +679,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj: /Users/apple/Documents/9A/4x
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -662,10 +737,171 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj: /Users/apple/Documents/9A/
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h
+
+CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/can_task.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Src/can_task.c \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/math.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/FreeRTOSConfig.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/fdcan.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/main.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/stm32h7xx_hal_conf.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/tim.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_version.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/core_cm7.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/mpu_armv7.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc/can_task.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h
+
+CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/motor_task.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Src/motor_task.c \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/math.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/float.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/FreeRTOSConfig.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/fdcan.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/main.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/stm32h7xx_hal_conf.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/DSP/Include/arm_math.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_version.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/core_cm7.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/mpu_armv7.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc/motor_task.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.c \
@@ -718,6 +954,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj: /Users/apple/Documents/9A/
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -774,6 +1012,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj: /Users/apple/Documents/9A/4x4/
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -837,6 +1077,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj: /Users/apple/Documents
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -909,92 +1151,14 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj: /Users/apple/Documents/
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h
-
-CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/User/motor.c \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/math.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/float.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/FreeRTOSConfig.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/fdcan.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/main.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/stm32h7xx_hal_conf.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/DSP/Include/arm_math.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_compiler.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_gcc.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_version.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/core_cm7.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/mpu_armv7.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.h \
-  /Users/apple/Documents/9A/4x4/AGV_jetson/User/motor.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h
 
 CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.c \
@@ -1051,6 +1215,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -1058,21 +1224,19 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
   /Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.h
 
 
-/Users/apple/Documents/9A/4x4/AGV_jetson/User/motor.h:
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h:
+
+/Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.c:
+
+/Users/apple/Documents/9A/4x4/AGV_jetson/User/delay.c:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/float.h:
-
-/Users/apple/Documents/9A/4x4/AGV_jetson/User/motor.c:
-
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h:
 
-/Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.c:
-
-/Users/apple/Documents/9A/4x4/AGV_jetson/User/delay.c:
+/Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Src/can_task.c:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/usart.c:
 
@@ -1102,31 +1266,27 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h:
 
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h:
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/signal.h:
 
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h:
+/Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.c:
 
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/types.h:
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/time.h:
 
-/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/stm32h7xx_it.c:
-
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h:
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_time.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/FreeRTOSConfig.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/syscalls.c:
 
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_time.h:
-
 /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/stm32h7xx_hal_timebase_tim.c:
+
+/Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h:
 
-/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/stm32h7xx_hal_msp.c:
-
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/endian.h:
+/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h:
 
@@ -1138,11 +1298,13 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/gpio.c:
 
-/Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.h:
-
 /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
+
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h:
+
+/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/stm32h7xx_it.c:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h:
 
@@ -1164,6 +1326,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/usart.h:
 
+/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/spi.c:
+
 /Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/fdcan.c:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h:
@@ -1177,6 +1341,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/times.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
+
+/Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h:
 
@@ -1193,6 +1359,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h:
+
+/Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Src/motor_task.c:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h:
 
@@ -1218,6 +1386,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/timespec.h:
 
+/Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc/can_task.h:
+
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
@@ -1225,6 +1395,8 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h:
+
+/Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc/motor_task.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_compiler.h:
 
@@ -1235,10 +1407,6 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Include/cmsis_version.h:
-
-/Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.c:
-
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/time.h:
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h:
 
@@ -1255,6 +1423,10 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 /Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h:
+
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/types.h:
+
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h:
 
@@ -1282,8 +1454,6 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h:
 
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/signal.h:
-
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h:
@@ -1294,7 +1464,15 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj: /Users/apple/Documents/9A/4
 
 /Users/apple/Documents/9A/4x4/AGV_jetson/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h:
 
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/endian.h:
+
+/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/stm32h7xx_hal_msp.c:
+
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h:
+
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h:
+
+/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc/spi.h:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h:
 

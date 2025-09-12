@@ -275,6 +275,30 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/spi.obj: Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.obj
+
+# target to build an object file
+Core/Src/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.c.obj
+
+Core/Src/spi.i: Core/Src/spi.c.i
+.PHONY : Core/Src/spi.i
+
+# target to preprocess a source file
+Core/Src/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/spi.c.i
+.PHONY : Core/Src/spi.c.i
+
+Core/Src/spi.s: Core/Src/spi.c.s
+.PHONY : Core/Src/spi.s
+
+# target to generate assembly for a file
+Core/Src/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/spi.c.s
+.PHONY : Core/Src/spi.c.s
+
 Core/Src/stm32h7xx_hal_msp.obj: Core/Src/stm32h7xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32h7xx_hal_msp.obj
 
@@ -443,6 +467,54 @@ Core/Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.s
 .PHONY : Core/Src/usart.c.s
 
+Tasks/Src/can_task.obj: Tasks/Src/can_task.c.obj
+.PHONY : Tasks/Src/can_task.obj
+
+# target to build an object file
+Tasks/Src/can_task.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/can_task.c.obj
+.PHONY : Tasks/Src/can_task.c.obj
+
+Tasks/Src/can_task.i: Tasks/Src/can_task.c.i
+.PHONY : Tasks/Src/can_task.i
+
+# target to preprocess a source file
+Tasks/Src/can_task.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/can_task.c.i
+.PHONY : Tasks/Src/can_task.c.i
+
+Tasks/Src/can_task.s: Tasks/Src/can_task.c.s
+.PHONY : Tasks/Src/can_task.s
+
+# target to generate assembly for a file
+Tasks/Src/can_task.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/can_task.c.s
+.PHONY : Tasks/Src/can_task.c.s
+
+Tasks/Src/motor_task.obj: Tasks/Src/motor_task.c.obj
+.PHONY : Tasks/Src/motor_task.obj
+
+# target to build an object file
+Tasks/Src/motor_task.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/motor_task.c.obj
+.PHONY : Tasks/Src/motor_task.c.obj
+
+Tasks/Src/motor_task.i: Tasks/Src/motor_task.c.i
+.PHONY : Tasks/Src/motor_task.i
+
+# target to preprocess a source file
+Tasks/Src/motor_task.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/motor_task.c.i
+.PHONY : Tasks/Src/motor_task.c.i
+
+Tasks/Src/motor_task.s: Tasks/Src/motor_task.c.s
+.PHONY : Tasks/Src/motor_task.s
+
+# target to generate assembly for a file
+Tasks/Src/motor_task.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/motor_task.c.s
+.PHONY : Tasks/Src/motor_task.c.s
+
 User/bsp_fdcan.obj: User/bsp_fdcan.c.obj
 .PHONY : User/bsp_fdcan.obj
 
@@ -539,30 +611,6 @@ User/dm_motor_drv.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.s
 .PHONY : User/dm_motor_drv.c.s
 
-User/motor.obj: User/motor.c.obj
-.PHONY : User/motor.obj
-
-# target to build an object file
-User/motor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj
-.PHONY : User/motor.c.obj
-
-User/motor.i: User/motor.c.i
-.PHONY : User/motor.i
-
-# target to preprocess a source file
-User/motor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.i
-.PHONY : User/motor.c.i
-
-User/motor.s: User/motor.c.s
-.PHONY : User/motor.s
-
-# target to generate assembly for a file
-User/motor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.s
-.PHONY : User/motor.c.s
-
 User/uart_bsp.obj: User/uart_bsp.c.obj
 .PHONY : User/uart_bsp.obj
 
@@ -621,6 +669,9 @@ help:
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
+	@echo "... Core/Src/spi.obj"
+	@echo "... Core/Src/spi.i"
+	@echo "... Core/Src/spi.s"
 	@echo "... Core/Src/stm32h7xx_hal_msp.obj"
 	@echo "... Core/Src/stm32h7xx_hal_msp.i"
 	@echo "... Core/Src/stm32h7xx_hal_msp.s"
@@ -642,6 +693,12 @@ help:
 	@echo "... Core/Src/usart.obj"
 	@echo "... Core/Src/usart.i"
 	@echo "... Core/Src/usart.s"
+	@echo "... Tasks/Src/can_task.obj"
+	@echo "... Tasks/Src/can_task.i"
+	@echo "... Tasks/Src/can_task.s"
+	@echo "... Tasks/Src/motor_task.obj"
+	@echo "... Tasks/Src/motor_task.i"
+	@echo "... Tasks/Src/motor_task.s"
 	@echo "... User/bsp_fdcan.obj"
 	@echo "... User/bsp_fdcan.i"
 	@echo "... User/bsp_fdcan.s"
@@ -654,9 +711,6 @@ help:
 	@echo "... User/dm_motor_drv.obj"
 	@echo "... User/dm_motor_drv.i"
 	@echo "... User/dm_motor_drv.s"
-	@echo "... User/motor.obj"
-	@echo "... User/motor.i"
-	@echo "... User/motor.s"
 	@echo "... User/uart_bsp.obj"
 	@echo "... User/uart_bsp.i"
 	@echo "... User/uart_bsp.s"

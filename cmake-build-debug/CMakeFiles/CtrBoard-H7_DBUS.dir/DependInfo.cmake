@@ -25,6 +25,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/apple/Documents/9A/4x4/AGV_jetson/User"
+  "/Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Inc"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares/Third_Party/FreeRTOS/Source/include"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Inc"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Middlewares"
@@ -44,6 +45,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/freertos.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/freertos.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/gpio.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/gpio.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/main.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/main.c.obj.d"
+  "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/spi.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/spi.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/stm32h7xx_hal_msp.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_msp.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/stm32h7xx_hal_timebase_tim.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/stm32h7xx_it.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/stm32h7xx_it.c.obj.d"
@@ -51,11 +53,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/sysmem.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/sysmem.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/tim.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/tim.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/Core/Src/usart.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Core/Src/usart.c.obj.d"
+  "/Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Src/can_task.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/can_task.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/can_task.c.obj.d"
+  "/Users/apple/Documents/9A/4x4/AGV_jetson/Tasks/Src/motor_task.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/motor_task.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/Tasks/Src/motor_task.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/User/bsp_fdcan.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/bsp_fdcan.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/User/delay.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/delay.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_ctrl.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_ctrl.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/User/dm_motor_drv.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/dm_motor_drv.c.obj.d"
-  "/Users/apple/Documents/9A/4x4/AGV_jetson/User/motor.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/motor.c.obj.d"
   "/Users/apple/Documents/9A/4x4/AGV_jetson/User/uart_bsp.c" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj" "gcc" "CMakeFiles/CtrBoard-H7_DBUS.dir/User/uart_bsp.c.obj.d"
   )
 

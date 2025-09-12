@@ -101,12 +101,12 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/all: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.
 CMakeFiles/CtrBoard-H7_DBUS.dir/all: cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrBoard-H7_DBUS.dir/build.make CMakeFiles/CtrBoard-H7_DBUS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target CtrBoard-H7_DBUS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target CtrBoard-H7_DBUS"
 .PHONY : CMakeFiles/CtrBoard-H7_DBUS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CtrBoard-H7_DBUS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles 56
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CtrBoard-H7_DBUS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CtrBoard-H7_DBUS.dir/rule
@@ -127,12 +127,12 @@ CMakeFiles/CtrBoard-H7_DBUS.dir/clean:
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/depend
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target STM32_Drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56 "Built target STM32_Drivers"
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 
 # Build rule for subdir invocation for target.
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles 0
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
@@ -153,7 +153,7 @@ cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/clean:
 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/all:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/depend
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30 "Built target FreeRTOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Documents/9A/4x4/AGV_jetson/cmake-build-debug/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32 "Built target FreeRTOS"
 .PHONY : cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/all
 
 # Build rule for subdir invocation for target.
